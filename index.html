@@ -1,0 +1,516 @@
+<title>Mesa de Cotejo</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:ital,opsz,wght@1,8..60,400&display=swap">
+<link rel="stylesheet" href="estilos.css">
+
+<button type="button" class="saltar" id="btn-saltar">Saltar al contenido</button>
+<p class="oculto" id="anuncio-fecha" aria-live="polite"></p>
+<header class="barra" id="barra">
+  <div class="barra-marca">
+    <span class="sello" aria-hidden="true"></span>
+    <div>
+      <p class="marca">Mesa de Cotejo</p>
+      <p class="aviso-ley" id="aviso-vigencia">Ley 2573 de 2026 · vigente desde el 19 nov 2026</p>
+    </div>
+    <span class="etiqueta-ficticio">Datos ficticios</span>
+  </div>
+  <button type="button" class="buscador" id="btn-paleta" aria-haspopup="dialog">
+    <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M13 13l4 4"/></svg>
+    <span class="buscador-texto">Buscar o preguntar</span><kbd>Ctrl K</kbd>
+  </button>
+  <div class="barra-fecha">
+    <label for="input-fecha" class="etq">Fecha simulada</label>
+    <div class="grupo-fecha">
+      <button type="button" id="btn-dia-anterior" class="btn btn-secundario btn-compacto" aria-label="Día hábil anterior">‹</button>
+      <input type="date" id="input-fecha" class="control" min="2026-11-02" max="2027-12-31" value="2026-12-22">
+      <button type="button" id="btn-dia-siguiente" class="btn btn-secundario btn-compacto" aria-label="Siguiente día hábil">›</button>
+    </div>
+    <span class="texto-dia" id="texto-dia"></span>
+  </div>
+  <div class="barra-cuenta">
+    <label for="selector-idioma" class="oculto">Idioma</label>
+    <select id="selector-idioma" class="control control-compacto" data-sin-traducir>
+      <option value="es">ES · Español</option><option value="en">EN · English</option><option value="pt">PT · Português</option>
+    </select>
+    <button type="button" class="btn-icono" id="btn-tema" aria-label="Cambiar tema: sistema" title="Tema: sistema">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="M10 3.5v13" /><path d="M10 3.5a6.5 6.5 0 0 1 0 13z" class="relleno"/></svg>
+    </button>
+    <button type="button" class="btn-icono" id="btn-atajos" aria-label="Atajos de teclado" title="Atajos de teclado (?)">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><rect x="2.5" y="5" width="15" height="10" rx="2"/><path d="M5.5 8h1M8.5 8h1M11.5 8h1M14.5 8h0M6 12h8"/></svg>
+    </button>
+    <span class="avatar" title="Sesión de demostración: analista">AN</span>
+  </div>
+</header>
+
+<div class="marco">
+  <nav class="riel" aria-label="Secciones">
+    <a href="#resumen" id="nav-resumen" class="riel-enlace"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="11" y="3" width="6" height="6" rx="1"/><rect x="3" y="11" width="6" height="6" rx="1"/><rect x="11" y="11" width="6" height="6" rx="1"/></svg><span>Resumen</span></a>
+    <a href="#bandeja" id="nav-bandeja" class="riel-enlace"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 11l2-7h10l2 7v5H3z"/><path d="M3 11h4l1 2h4l1-2h4"/></svg><span>Bandeja</span><span class="riel-cuenta" id="cuenta-bandeja"></span></a>
+    <a href="#red" id="nav-red" class="riel-enlace"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="5" cy="10" r="2.2"/><circle cx="15" cy="5" r="2.2"/><circle cx="15" cy="15" r="2.2"/><path d="M7 9l6-3M7 11l6 3"/></svg><span>Red de fraude</span></a>
+    <a href="#cumplimiento" id="nav-cumplimiento" class="riel-enlace"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2.5l6 2.5v4.5c0 4-2.6 6.6-6 8-3.4-1.4-6-4-6-8V5z"/><path d="M7 10l2 2 4-4"/></svg><span>Cumplimiento</span><span class="riel-cuenta riel-cuenta-critica" id="cuenta-cumplimiento"></span></a>
+    <a href="#calendario" id="nav-calendario" class="riel-enlace"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="3" y="4.5" width="14" height="12.5" rx="1.5"/><path d="M3 8.5h14M7 2.5v4M13 2.5v4"/></svg><span>Calendario legal</span></a>
+    <a href="#metodo" id="nav-metodo" class="riel-enlace"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.5"/><path d="M10 9v5M10 6.2v.1"/></svg><span>Cómo funciona</span></a>
+  </nav>
+
+  <main class="contenido" id="contenido-principal" tabindex="-1">
+    <!-- Resumen -->
+    <section id="vista-resumen" class="vista" aria-labelledby="t-resumen">
+      <header class="vista-cabecera">
+        <h1 id="t-resumen">Reclamos por suplantación</h1>
+        <p>Cada reclamo tiene plazos en días hábiles. Si la respuesta de fondo no sale en 15, el reclamo se entiende resuelto a favor del titular.</p>
+        <div class="acciones-demo">
+          <button type="button" class="btn btn-principal" id="btn-recorrido">Recorrido guiado</button>
+          <button type="button" class="btn btn-secundario" id="btn-reproducir" aria-pressed="false">Reproducir el mes</button>
+          <button type="button" id="btn-reiniciar" class="btn btn-enlace">Reiniciar demo</button>
+          <span class="nota">Recorre la demo en 8 pasos o mira el primer mes de la ley avanzar día por día.</span>
+        </div>
+      </header>
+
+      <div class="kpis">
+        <div class="kpi"><span class="etq">Casos abiertos</span><span class="kpi-valor" id="kpi-abiertos">0</span><span class="kpi-nota">Con trámite o cobro suspendido</span></div>
+        <div class="kpi"><span class="etq">En riesgo de silencio</span><span class="kpi-valor" id="kpi-riesgo">0</span><span class="kpi-nota">3 días hábiles o menos para responder</span></div>
+        <div class="kpi"><span class="etq">Cotejos que vencen hoy</span><span class="kpi-valor" id="kpi-cotejos">0</span><span class="kpi-nota">Plazo de 10 días hábiles</span></div>
+        <div class="kpi"><span class="etq">Cobros suspendidos</span><span class="kpi-valor" id="kpi-suspendido">$0</span><span class="kpi-nota" id="kpi-suspendido-nota"></span></div>
+        <div class="kpi"><span class="etq">Plazos incumplidos</span><span class="kpi-valor" id="kpi-incumplidos">0</span><span class="kpi-nota" id="kpi-incumplidos-nota"></span></div>
+      </div>
+
+      <section class="tarjeta pronostico" aria-labelledby="t-pron">
+        <div class="pron-texto">
+          <h2 class="etq" id="t-pron">Si nadie actúa</h2>
+          <p class="pron-titular" id="pronostico-titular"></p>
+          <p class="nota">Silencios positivos nuevos acumulados por día hábil, si desde hoy nadie coteja ni responde.</p>
+        </div>
+        <div class="pron-dias" id="pronostico-dias" aria-label="Silencios nuevos por día"></div>
+      </section>
+
+      <div class="rejilla-2">
+        <section class="tarjeta" aria-labelledby="t-venc">
+          <header class="tarjeta-cabecera">
+            <h2 class="tarjeta-titulo" id="t-venc">Próximos vencimientos</h2>
+            <p class="tarjeta-sub">Lo vencido arriba. La regla marca los días 10, 15, 20 y 23.</p>
+          </header>
+          <div id="lista-vencimientos" class="lista-venc"></div>
+        </section>
+        <section class="tarjeta" aria-labelledby="t-grafica">
+          <header class="tarjeta-cabecera">
+            <h2 class="tarjeta-titulo" id="t-grafica">Reclamos radicados por día hábil</h2>
+            <p class="tarjeta-sub" id="grafica-total"></p>
+          </header>
+          <div id="grafica-radicaciones"></div>
+        </section>
+      </div>
+
+      <div class="rejilla-2">
+        <section class="tarjeta" aria-labelledby="t-comercios">
+          <header class="tarjeta-cabecera">
+            <h2 class="tarjeta-titulo" id="t-comercios">Dónde se originaron los créditos</h2>
+            <p class="tarjeta-sub">Reclamos por comercio</p>
+          </header>
+          <p class="caja caja-critico" id="alerta-asesor" hidden></p>
+          <div id="lista-comercios"></div>
+        </section>
+        <section class="tarjeta" aria-labelledby="t-redes">
+          <header class="tarjeta-cabecera">
+            <h2 class="tarjeta-titulo" id="t-redes">Casos unidos por datos compartidos</h2>
+            <p class="tarjeta-sub">Mismo dispositivo, teléfono, dirección o asesor</p>
+          </header>
+          <div id="resumen-redes" class="resumen-redes"></div>
+          <a href="#red" class="btn btn-principal">Ver la red</a>
+        </section>
+      </div>
+    </section>
+
+    <!-- Bandeja -->
+    <section id="vista-bandeja" class="vista" aria-labelledby="t-bandeja" hidden>
+      <header class="vista-cabecera">
+        <h1 id="t-bandeja">Bandeja de casos</h1>
+        <p>Ordenada por prioridad: urgencia del plazo, monto y evidencia. Abre un caso para ver su reloj legal, el cotejo y la recomendación.</p>
+        <div class="acciones-demo"><button type="button" class="btn btn-principal" id="btn-radicar">Radicar reclamo</button><button type="button" class="btn btn-secundario" id="btn-exportar" hidden>Exportar CSV</button></div>
+      </header>
+      <div class="vistas-rapidas" role="group" aria-label="Vistas rápidas">
+        <button type="button" class="chip" data-vista="todos" aria-pressed="true">Todos</button>
+        <button type="button" class="chip" data-vista="pronto" aria-pressed="false">Vencen pronto</button>
+        <button type="button" class="chip" data-vista="mios" aria-pressed="false">Mis casos</button>
+        <button type="button" class="chip" data-vista="incumplidos" aria-pressed="false">Incumplidos</button>
+        <button type="button" class="chip" data-vista="alta" aria-pressed="false">Evidencia clara</button>
+        <button type="button" class="chip" data-vista="cerrados" aria-pressed="false">Cerrados</button>
+      </div>
+      <div class="filtros">
+        <div class="campo"><label for="filtro-buscar" class="etq">Buscar</label><input type="search" id="filtro-buscar" class="control" placeholder="Radicado o nombre"></div>
+        <div class="campo"><label for="filtro-estado" class="etq">Estado</label><select id="filtro-estado" class="control"><option value="todos">Todos</option></select></div>
+        <div class="campo"><label for="filtro-banda" class="etq">Evidencia</label>
+          <select id="filtro-banda" class="control"><option value="todas">Todas</option><option value="alta">Evidencia clara (60 o más)</option><option value="media">Parcial (30 a 59)</option><option value="baja">Sin elementos (menos de 30)</option></select></div>
+        <div class="campo"><label for="filtro-comercio" class="etq">Comercio</label><select id="filtro-comercio" class="control"><option value="todos">Todos</option></select></div>
+        <div class="campo"><label for="filtro-canal" class="etq">Canal</label><select id="filtro-canal" class="control"><option value="todos">Todos</option></select></div>
+        <div class="campo"><label for="filtro-analista" class="etq">Analista</label><select id="filtro-analista" class="control"><option value="todos">Todos</option><option value="Tú">Mis casos</option></select></div>
+      </div>
+      <div class="tabla-envoltura tarjeta">
+        <table class="tabla"><caption class="oculto">Casos de la bandeja, ordenados por la columna marcada</caption>
+          <thead><tr><th scope="col" class="num"><button type="button" class="orden" data-orden="prioridad" title="Urgencia (hasta 60) + monto (hasta 25) + evidencia (hasta 15)">Prioridad</button></th><th scope="col"><button type="button" class="orden" data-orden="titular">Caso</button></th><th scope="col"><button type="button" class="orden" data-orden="analista">Analista</button></th><th scope="col"><button type="button" class="orden" data-orden="comercio">Comercio</button></th><th scope="col" class="num"><button type="button" class="orden" data-orden="monto">Monto</button></th><th scope="col"><button type="button" class="orden" data-orden="plazo">Próximo plazo</button></th><th scope="col"><button type="button" class="orden" data-orden="evidencia">Evidencia</button></th><th scope="col"><button type="button" class="orden" data-orden="estado">Estado</button></th></tr></thead>
+          <tbody id="cuerpo-bandeja"></tbody>
+        </table>
+      </div>
+      <p class="conteo" id="conteo-bandeja" aria-live="polite"></p>
+    </section>
+
+    <!-- Red de fraude -->
+    <section id="vista-red" class="vista" aria-labelledby="t-red" hidden>
+      <header class="vista-cabecera">
+        <h1 id="t-red">Red de fraude</h1>
+        <p>Un reclamo suelto es un caso. Varios reclamos con el mismo dispositivo, la misma dirección o el mismo asesor son una investigación.</p>
+      </header>
+      <div class="rejilla-red">
+        <section class="tarjeta grafo-tarjeta" aria-label="Grafo de casos y datos compartidos">
+          <div class="leyenda">
+            <span><i class="mu mu-alta"></i>Evidencia clara</span>
+            <span><i class="mu mu-media"></i>Parcial</span>
+            <span><i class="mu mu-baja"></i>Sin elementos</span>
+            <span><i class="mu mu-entidad"></i>Dato compartido</span>
+            <span><i class="mu mu-asesor"></i>Mismo asesor</span>
+          </div>
+          <div class="grafo-envoltura"><svg id="svg-red" class="grafo" viewBox="0 0 720 440" role="group" aria-label="Casos unidos por datos compartidos"></svg></div>
+          <p class="nota">Toca un círculo para abrir el caso. El número es el final del radicado.</p>
+        </section>
+        <div id="fichas-red" class="fichas-red"></div>
+      </div>
+    </section>
+
+    <!-- Cumplimiento -->
+    <section id="vista-cumplimiento" class="vista" aria-labelledby="t-cum" hidden>
+      <header class="vista-cabecera">
+        <h1 id="t-cum">Cumplimiento y auditoría</h1>
+        <p>Lo que vería la Superintendencia en una inspección: qué plazos se cumplieron a tiempo y el registro de cada acción, con fecha y responsable.</p>
+      </header>
+      <div class="kpis kpis-4">
+        <div class="kpi"><span class="etq">Plazos cumplidos a tiempo</span><span class="kpi-valor" id="cum-pct">0 %</span><span class="kpi-nota" id="cum-pct-nota"></span></div>
+        <div class="kpi"><span class="etq">Tiempo medio de cotejo</span><span class="kpi-valor" id="cum-cotejo">0</span><span class="kpi-nota">hábiles, de 10 permitidos</span></div>
+        <div class="kpi"><span class="etq">Tiempo medio de respuesta</span><span class="kpi-valor" id="cum-resp">0</span><span class="kpi-nota">hábiles, de 15 permitidos</span></div>
+        <div class="kpi"><span class="etq">Monto expuesto a silencio</span><span class="kpi-valor kpi-dinero" id="cum-exposicion">$0</span><span class="kpi-nota">Casos en riesgo o con silencio configurado</span></div>
+      </div>
+      <section class="tarjeta" aria-labelledby="t-impacto">
+        <header class="tarjeta-cabecera"><h2 class="tarjeta-titulo" id="t-impacto">Impacto financiero</h2><p class="tarjeta-sub">Montos de los casos hasta la fecha simulada. La pérdida esperada usa supuestos visibles, no calibrados.</p></header>
+        <dl class="impacto">
+          <div><dt>Resuelto a favor del titular por silencio</dt><dd id="imp-silencio">$0</dd><dd class="nota">Reclamos que se entienden resueltos a favor del titular por responder tarde; además, la entidad se expone a sanción.</dd></div>
+          <div><dt>Exonerado por suplantación</dt><dd id="imp-exonerado">$0</dd><dd class="nota">Pérdida por fraude; se recupera solo si prospera la denuncia de estafa.</dd></div>
+          <div><dt>Pérdida esperada de los casos abiertos</dt><dd id="imp-esperada">$0</dd><dd class="nota">Supuesto: 90 % si la evidencia es clara, 50 % si es parcial, 15 % sin elementos.</dd></div>
+        </dl>
+      </section>
+      <section class="tarjeta" aria-labelledby="t-cum-tabla">
+        <h2 class="tarjeta-titulo" id="t-cum-tabla">Plazos por obligación</h2>
+        <div class="tabla-envoltura">
+          <table class="tabla"><caption class="oculto">Plazos por obligación</caption><thead><tr><th scope="col">Obligación</th><th scope="col">Plazo</th><th scope="col" class="num">A tiempo</th><th scope="col" class="num">Tarde</th><th scope="col" class="num">Vencidos sin hacer</th><th scope="col" class="num">En término</th></tr></thead>
+          <tbody id="cum-tabla"></tbody></table>
+        </div>
+      </section>
+      <section class="tarjeta" aria-labelledby="t-cum-reg">
+        <header class="tarjeta-cabecera"><h2 class="tarjeta-titulo" id="t-cum-reg">Registro de auditoría</h2><p class="tarjeta-sub">Cada acción guarda una huella SHA-256 que incluye la de la acción anterior. Si alguien cambia un registro viejo, la cadena se rompe desde ahí.</p></header>
+        <div class="acciones-demo">
+          <button type="button" class="btn btn-secundario" id="btn-verificar">Verificar integridad</button>
+          <button type="button" class="btn btn-secundario" id="btn-alterar">Simular una alteración</button>
+          <span class="nota" id="cum-cadena"></span>
+        </div>
+        <p class="caja" id="cum-verificacion" role="status" hidden></p>
+        <div class="tabla-envoltura">
+          <table class="tabla tabla-registro"><thead><tr><th scope="col" class="num">Fecha</th><th scope="col">Quién</th><th scope="col">Caso</th><th scope="col">Acción</th><th scope="col">Huella</th></tr></thead>
+          <tbody id="cum-registro"></tbody></table>
+        </div>
+      </section>
+      <section class="tarjeta" aria-labelledby="t-bitacora">
+        <header class="tarjeta-cabecera"><h2 class="tarjeta-titulo" id="t-bitacora">Bitácora de decisiones</h2><p class="tarjeta-sub">Cada decisión de esta sesión, con la hora real, quién la tomó y su huella. Solo se agrega: deshacer también queda escrito.</p></header>
+        <div class="acciones-demo"><button type="button" class="btn btn-secundario" id="btn-verificar-bitacora">Verificar bitácora</button></div>
+        <p class="caja" id="bitacora-verificacion" role="status" hidden></p>
+        <p class="vacio" id="bitacora-vacia">Todavía no hay decisiones. Abre un caso y decide algo para verla aquí.</p>
+        <div class="tabla-envoltura">
+          <table class="tabla tabla-registro"><thead><tr><th scope="col" class="num">N.º</th><th scope="col" class="num">Hora</th><th scope="col" class="num">Fecha simulada</th><th scope="col">Caso</th><th scope="col">Quién</th><th scope="col">Acción</th><th scope="col">Huella</th></tr></thead>
+          <tbody id="bitacora-lista"></tbody></table>
+        </div>
+      </section>
+    </section>
+
+    <!-- (la bitácora va dentro de Cumplimiento) -->
+    <!-- Calendario legal -->
+    <section id="vista-calendario" class="vista" aria-labelledby="t-cal" hidden>
+      <header class="vista-cabecera">
+        <h1 id="t-cal">Calendario legal</h1>
+        <p>Festivos de Colombia y plazos que vencen cada día en los casos abiertos.</p>
+      </header>
+      <section class="tarjeta">
+        <div class="cal-cabecera">
+          <button type="button" id="btn-mes-anterior" class="btn btn-secundario btn-compacto">‹ Mes anterior</button>
+          <h2 id="titulo-mes" class="tarjeta-titulo">Diciembre 2026</h2>
+          <button type="button" id="btn-mes-siguiente" class="btn btn-secundario btn-compacto">Mes siguiente ›</button>
+        </div>
+        <div class="cal-semana" aria-hidden="true"><span>Lun</span><span>Mar</span><span>Mié</span><span>Jue</span><span>Vie</span><span>Sáb</span><span>Dom</span></div>
+        <div class="cal-dias" id="dias-calendario"></div>
+      </section>
+      <section class="tarjeta texto-largo">
+        <h2 class="tarjeta-titulo">Cómo se cuentan los días hábiles</h2>
+        <ul>
+          <li>El día en que se radica el reclamo no cuenta. El plazo empieza el siguiente día hábil.</li>
+          <li>No cuentan sábados, domingos ni festivos.</li>
+          <li>Los festivos se calculan con la Ley 51 de 1983 (ley Emiliani): varios se trasladan al lunes siguiente y otros dependen de la fecha de Pascua. Desde la Ley 2578 de 2026 también es festivo el 9 de julio (Virgen de Chiquinquirá), así que en 2026 hay 19.</li>
+          <li>La respuesta de fondo vence a los 15 días hábiles. Se puede prorrogar 8 más; si no se responde, opera el silencio positivo.</li>
+        </ul>
+      </section>
+    </section>
+
+    <!-- Cómo funciona -->
+    <section id="vista-metodo" class="vista" aria-labelledby="t-metodo" hidden>
+      <header class="vista-cabecera">
+        <h1 id="t-metodo">Cómo funciona</h1>
+        <p>Una mesa para que una entidad de crédito cumpla la Ley 2573 de 2026 sin dejar vencer plazos.</p>
+      </header>
+      <section class="tarjeta texto-largo">
+        <h2 class="tarjeta-titulo">El problema</h2>
+        <p>La Ley Estatutaria 2573 de 2026 se expidió el 19 de mayo de 2026 y entra en vigencia seis meses después, el 19 de noviembre (art. 13). Desde ese día, cuando una persona dice que la suplantaron, quien le dio el crédito tiene que suspender el cobro de inmediato, cotejar documentos en 10 días hábiles y responder en 15. Si no responde a tiempo, el reclamo se entiende resuelto a favor de la persona y la entidad puede ser sancionada.</p>
+        <div class="tabla-envoltura">
+          <table class="tabla tabla-simple">
+            <thead><tr><th scope="col">Qué hay que hacer</th><th scope="col">Plazo</th><th scope="col">Artículo</th></tr></thead>
+            <tbody>
+              <tr><td>Suspender el cobro, los intereses y los gastos de cobranza</td><td>Inmediato</td><td>Art. 8 inc. 2</td></tr>
+              <tr><td>Bloquear el cupo y el producto adquirido por suplantación</td><td>Inmediato</td><td>Art. 5 num. 5</td></tr>
+              <tr><td>Avisar al titular que tiene 20 días hábiles para denunciar</td><td>El mismo día</td><td>Art. 8 inc. 3 y art. 5 num. 6</td></tr>
+              <tr><td>Informar a las centrales para que marquen «reclamo en trámite»</td><td>2 días hábiles</td><td>Ley 1266, art. 16-II</td></tr>
+              <tr><td>Entregar copia de los documentos del crédito si los pide</td><td>No se puede negar</td><td>Art. 5 num. 7</td></tr>
+              <tr><td>Cotejar documentos y pedir la leyenda «Víctima de Falsedad Personal»</td><td>10 días hábiles</td><td>Ley 1266, art. 16-II num. 7 (mod. art. 7 Ley 2573)</td></tr>
+              <tr><td>Responder de fondo</td><td>15 días hábiles, prorrogables 8</td><td>Ley 1266, art. 16-II num. 8 (mod. art. 7 Ley 2573)</td></tr>
+              <tr><td>Plazo del titular para denunciar; si no lo hace, se puede reanudar el cobro</td><td>20 días hábiles</td><td>Art. 8, par. 1</td></tr>
+              <tr><td>Formular la denuncia penal de la entidad (falsedad personal y conexos)</td><td>20 días hábiles</td><td>Art. 8 inc. 3 (Sentencia C-413 de 2025)</td></tr>
+              <tr><td>Denunciar la estafa si hay discrepancias</td><td>En el trámite</td><td>Art. 5 num. 9</td></tr>
+              <tr><td>Reportar a la DIAN</td><td>En el trámite</td><td>Art. 5 num. 8</td></tr>
+              <tr><td>Investigar si hubo funcionarios involucrados</td><td>Si hay indicios</td><td>Art. 5 num. 10</td></tr>
+              <tr><td>Exonerar si hay elementos que evidencian la suplantación</td><td>En el trámite</td><td>Art. 10, inciso 1</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 class="tarjeta-titulo">Quién hace qué</h2>
+        <ol class="capas" aria-label="Capas de la mesa">
+          <li class="capa"><span class="etq">1 · Código determinista</span><strong>Calendario, plazos y puntaje</strong><span>Festivos de Colombia, días hábiles, reglas de evidencia. Siempre da el mismo resultado y se puede auditar.</span></li>
+          <li class="capa capa-ia"><span class="etq">2 · Asistente de IA</span><strong>Explica, resume y redacta</strong><span>Pide las fechas al calendario como herramienta. Cada consulta queda a la vista.</span></li>
+          <li class="capa capa-humano"><span class="etq">3 · Analista</span><strong>Decide y firma</strong><span>Aprueba, pide validación, escala o reanuda el cobro. Todo queda en el registro de auditoría.</span></li>
+        </ol>
+        <h2 class="tarjeta-titulo">Qué hace el código y qué haría la IA</h2>
+        <p><strong>Las fechas legales nunca las calcula una IA.</strong> Los plazos, los festivos y el puntaje de evidencia son reglas fijas que se pueden auditar. Una IA serviría para resumir el reclamo y los anexos y para redactar el borrador de respuesta. Cada decisión la aprueba una persona y queda en la línea de tiempo del caso.</p>
+        <h2 class="tarjeta-titulo">Por qué no hay botón «rechazar»</h2>
+        <p>El artículo 10 dice que la entidad no puede determinar que no hubo suplantación: eso lo deciden los jueces. Por eso la mesa solo ofrece salidas legales: exonerar si hay elementos, mantener la suspensión mientras llega la denuncia o, si pasaron 20 días hábiles sin denuncia, reanudar el cobro con aprobación de un analista.</p>
+        <h2 class="tarjeta-titulo">Límites del prototipo y cómo sería en producción</h2>
+        <ul>
+          <li><strong>Integraciones.</strong> Aquí suspender el cobro o pedir la corrección a las centrales es un registro. En producción serían llamadas al sistema de cobranza y a las centrales con acuse de recibo, reintentos y una alerta si el acuse no llega el mismo día.</li>
+          <li><strong>Puntaje.</strong> Los pesos son supuestos razonables, no calibrados. Con casos reales se mediría cuántos «evidencia clara» terminan con decisión judicial en contra (falsos positivos) antes de dejar que el puntaje sugiera exonerar.</li>
+          <li><strong>Respuesta de fondo.</strong> Las plantillas de respuesta las debe aprobar el área jurídica: la mesa solo garantiza que salgan a tiempo y con el resultado del cotejo.</li>
+          <li><strong>Datos personales.</strong> La IA no recibe cédula, dirección, teléfono ni correo, y trata los textos de los casos como datos, no como instrucciones.</li>
+          <li><strong>El silencio positivo no se deshace.</strong> Una respuesta tardía queda registrada como tarde y el caso se acata a favor del titular.</li>
+          <li><strong>Devolución por fallas de seguridad.</strong> Si la entidad incumplió los protocolos de seguridad, debe devolver el dinero o eliminar la deuda (art. 5 par. 2). La demo no lo modela; en producción se cruzaría con los controles de aprobación, por ejemplo una biometría bajo 0,70.</li>
+        </ul>
+        <h2 class="tarjeta-titulo">Cómo probarla</h2>
+        <p>Cambia la fecha simulada con las flechas de arriba. Al avanzar un día, los cotejos que vencían hoy pasan a vencidos. Abre un caso en riesgo y aprueba la recomendación para ver cómo cambia su estado. «Reiniciar demo» borra tus decisiones.</p>
+        <h2 class="tarjeta-titulo">Fuentes</h2>
+        <p>Ley Estatutaria 2573 de 2026, Diario Oficial No. 53.496 del 20 de mayo de 2026. <a href="https://www.superfinanciera.gov.co/publicaciones/10116246/boletin-juridico-no-123/" target="_blank" rel="noopener">Boletín Jurídico No. 123 de la Superintendencia Financiera</a>.</p>
+        <p class="caja">Prototipo de portafolio con datos ficticios. No es asesoría jurídica.</p>
+      </section>
+    </section>
+  </main>
+</div>
+
+<div class="velo" id="velo" hidden></div>
+<aside class="panel" id="panel-detalle" role="dialog" aria-modal="true" aria-labelledby="det-titular" hidden>
+  <header class="panel-cabecera">
+    <div class="panel-titulos">
+      <p class="panel-rad" id="det-radicado"></p>
+      <h2 class="panel-nombre" id="det-titular"></h2>
+      <p class="panel-datos" id="det-datos"></p>
+      <p class="panel-estado" id="det-estado"></p>
+    </div>
+    <button type="button" id="btn-cerrar-detalle" class="btn-cerrar" aria-label="Cerrar el caso">×</button>
+  </header>
+  <div class="pestanas" role="tablist" aria-label="Secciones del caso">
+    <button type="button" role="tab" class="pestana" id="pes-resumen" aria-controls="tab-resumen" aria-selected="true">Resumen</button>
+    <button type="button" role="tab" class="pestana" id="pes-cotejo" aria-controls="tab-cotejo" aria-selected="false">Cotejo y evidencia</button>
+    <button type="button" role="tab" class="pestana" id="pes-respuesta" aria-controls="tab-respuesta" aria-selected="false">Respuesta</button>
+    <button type="button" role="tab" class="pestana" id="pes-actividad" aria-controls="tab-actividad" aria-selected="false">Actividad</button>
+  </div>
+  <div class="panel-cuerpo">
+    <div class="pestana-panel" role="tabpanel" id="tab-resumen" aria-labelledby="pes-resumen">
+    <section class="bloque bloque-ia" id="det-ia" hidden>
+      <div class="ia-cabecera">
+        <h3 class="bloque-titulo">Asistente</h3>
+        <button type="button" class="btn btn-secundario btn-compacto" id="btn-ia-explicar">Explicar este caso</button>
+      </div>
+      <form class="ia-form" id="form-ia-caso">
+        <label for="det-ia-pregunta" class="oculto">Pregunta sobre este caso</label>
+        <input type="text" id="det-ia-pregunta" class="control" placeholder="Pregunta: ¿qué pasa si no respondo antes del día 15?" autocomplete="off">
+        <button type="submit" class="btn btn-principal btn-compacto">Preguntar</button>
+      </form>
+      <div class="ia-salida" id="det-ia-salida" aria-live="polite"></div>
+      <details class="ia-datos">
+        <summary>Qué datos ve la IA</summary>
+        <p>Radicado, nombre, ciudad, canal, comercio, asesor, monto, plazos, obligaciones, reglas del puntaje y qué datos no coincidieron. No ve la cédula, la dirección, el teléfono ni el correo. Las fechas las pide al calendario de la mesa, y si su respuesta concluye que «no hubo suplantación», la mesa la marca para revisión.</p>
+      </details>
+    </section>
+    <section class="bloque">
+      <h3 class="bloque-titulo">Reloj legal</h3>
+      <div id="det-reloj" class="reloj"></div>
+      <p class="nota" id="det-reloj-nota"></p>
+    </section>
+    <section class="bloque" id="det-decision">
+      <h3 class="bloque-titulo">Decisión del analista</h3>
+      <p class="caja caja-acento" id="det-recomendacion"></p>
+      <div class="botones">
+        <button type="button" class="btn btn-peligro" id="btn-suspender" hidden>Suspender el cobro ahora</button>
+        <button type="button" class="btn btn-principal" id="btn-acatar" hidden>Acatar el silencio y corregir centrales</button>
+        <button type="button" class="btn btn-principal" id="btn-aprobar">Aprobar recomendación</button>
+        <button type="button" class="btn btn-secundario" id="btn-prorrogar" hidden>Prorrogar 8 días hábiles</button>
+        <button type="button" class="btn btn-secundario" id="btn-validar">Pedir validación de identidad</button>
+        <button type="button" class="btn btn-secundario" id="btn-investigar">Escalar a investigación interna</button>
+        <button type="button" class="btn btn-secundario" id="btn-reanudar">Reanudar cobro</button>
+        <button type="button" class="btn btn-enlace" id="btn-deshacer" hidden>Deshacer mi última decisión</button>
+      </div>
+      <div class="confirmar confirmar-firma" id="confirmar-firma" hidden>
+        <p>Segunda firma: <strong>Camila Rojas, supervisora de fraude</strong>. En producción sería otra persona entrando con su propio usuario; en la demo se simula.</p>
+        <div class="botones"><button type="button" class="btn btn-principal" id="btn-firmar">Firmar como Camila Rojas</button><button type="button" class="btn btn-secundario" id="btn-cancelar-firma">Cancelar</button></div>
+      </div>
+      <p class="nota" id="det-nota-decision"></p>
+      <p class="caja caja-acento" id="det-doble-firma" hidden>Exoneraciones desde $1.500.000 necesitan dos firmas: la de quien propone y la de una supervisora. Así una sola persona no puede condonar una deuda grande.</p>
+      <div class="confirmar" id="confirmar-reanudar" hidden>
+        <p>Pasaron 20 días hábiles sin denuncia. El cobro se reanuda con intereses desde la fecha en que se suspendió (art. 8 par. 1). ¿Confirmas?</p>
+        <div class="botones">
+          <button type="button" class="btn btn-peligro" id="btn-confirmar-reanudar">Sí, reanudar el cobro</button>
+          <button type="button" class="btn btn-secundario" id="btn-cancelar-reanudar">Cancelar</button>
+        </div>
+      </div>
+    </section>
+    <section class="bloque">
+      <h3 class="bloque-titulo">Obligaciones</h3>
+      <ol class="obligaciones" id="det-obligaciones"></ol>
+    </section>
+    </div>
+    <div class="pestana-panel" role="tabpanel" id="tab-cotejo" aria-labelledby="pes-cotejo" hidden>
+    <section class="bloque" id="det-cotejo-bloque">
+      <h3 class="bloque-titulo">Cotejo</h3>
+      <div class="documentos" id="det-documentos"></div>
+      <p class="nota">Representación ficticia. Lo marcado en rojo no coincide entre los dos documentos.</p>
+      <div class="tabla-envoltura">
+        <table class="tabla tabla-cotejo"><caption class="oculto">Cotejo: lo recibido al aprobar el crédito frente a lo que aporta el titular</caption>
+          <thead><tr><th scope="col">Dato</th><th scope="col">Lo que recibimos al aprobar el crédito</th><th scope="col">Lo que aporta el titular</th><th scope="col">Resultado</th></tr></thead>
+          <tbody id="det-cotejo"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="bloque">
+      <h3 class="bloque-titulo">Evidencia de suplantación</h3>
+      <div class="puntaje-fila"><span class="puntaje-num" id="det-puntaje">0</span><span class="puntaje-de">/ 100</span><span class="puntaje-banda" id="det-banda"></span></div>
+      <span class="evid-riel evid-grande"><span class="evid-relleno" id="det-barra"></span></span>
+      <p class="nota">Desmarca una regla para ver cómo cambiaría el puntaje sin ella.</p>
+      <ul class="reglas" id="det-reglas"></ul>
+      <p class="caja caja-alerta" id="det-simulado" hidden></p>
+    </section>
+    </div>
+    <div class="pestana-panel" role="tabpanel" id="tab-respuesta" aria-labelledby="pes-respuesta" hidden>
+    <section class="bloque">
+      <h3 class="bloque-titulo">Borrador de respuesta</h3>
+      <p class="nota" id="det-borrador-etiqueta"></p>
+      <p class="nota">La carta sale en español: es el idioma del titular y de la ley.</p>
+      <label for="det-borrador" class="oculto">Borrador de respuesta al titular</label>
+      <textarea id="det-borrador" class="borrador" rows="14"></textarea>
+      <button type="button" class="btn btn-secundario" id="btn-copiar">Copiar borrador</button>
+    </section>
+    </div>
+    <div class="pestana-panel" role="tabpanel" id="tab-actividad" aria-labelledby="pes-actividad" hidden>
+    <section class="bloque bloque-final">
+      <h3 class="bloque-titulo">Línea de tiempo</h3>
+      <ol class="linea" id="det-linea"></ol>
+      <details class="integraciones">
+        <summary>Eventos para integraciones (<span id="det-eventos-cuenta">0</span>)</summary>
+        <p class="nota">Lo que la mesa enviaría a cobranza, a las centrales de riesgo y a la DIAN, con clave de idempotencia para no repetir una orden.</p>
+        <pre class="json" id="det-eventos" data-sin-traducir>[]</pre>
+      </details>
+      <button type="button" class="btn btn-secundario" id="btn-expediente" hidden>Descargar expediente (JSON)</button>
+    </section>
+    </div>
+  </div>
+</aside>
+
+<div class="velo velo-alto" id="velo-paleta" hidden></div>
+<div class="paleta" id="paleta" role="dialog" aria-modal="true" aria-label="Buscar o preguntar" hidden>
+  <div class="paleta-campo">
+    <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M13 13l4 4"/></svg>
+    <input type="text" id="paleta-entrada" class="paleta-entrada" role="combobox" aria-expanded="true" aria-controls="paleta-lista" autocomplete="off" placeholder="Busca un caso, salta a una vista o pregunta a la IA">
+    <kbd>Esc</kbd>
+  </div>
+  <ul class="paleta-lista" id="paleta-lista" role="listbox"></ul>
+  <div class="paleta-respuesta ia-salida" id="paleta-respuesta" aria-live="polite" hidden></div>
+</div>
+
+<div class="dialogo" id="dialogo-radicar" role="dialog" aria-modal="true" aria-labelledby="t-radicar" hidden>
+  <form id="form-radicar" class="dialogo-cuerpo">
+    <header><h2 class="tarjeta-titulo" id="t-radicar">Radicar un reclamo</h2><p class="nota">Se radica el <span id="rad-fecha"></span>. El cobro se suspende de inmediato y el reloj empieza a correr.</p></header>
+    <div class="rejilla-form">
+      <div class="campo"><label for="rad-nombre" class="etq">Nombre del titular</label><input id="rad-nombre" class="control" autocomplete="off" placeholder="Ej.: Marta Lucía Prieto"></div>
+      <div class="campo"><label for="rad-cedula" class="etq">Últimos 4 de la cédula</label><input id="rad-cedula" class="control" inputmode="numeric" maxlength="4" placeholder="Ej.: 7712"></div>
+      <div class="campo"><label for="rad-ciudad" class="etq">Ciudad</label><select id="rad-ciudad" class="control"></select></div>
+      <div class="campo"><label for="rad-canal" class="etq">Canal</label><select id="rad-canal" class="control"></select></div>
+      <div class="campo"><label for="rad-comercio" class="etq">Comercio</label><select id="rad-comercio" class="control"></select></div>
+      <div class="campo"><label for="rad-categoria" class="etq">Categoría</label><select id="rad-categoria" class="control"></select></div>
+      <div class="campo"><label for="rad-monto" class="etq">Monto del crédito (COP)</label><input id="rad-monto" class="control" type="number" min="50000" step="10000" value="1890000"></div>
+    </div>
+    <fieldset class="senales">
+      <legend class="etq">Lo que encontró el analista al revisar la solicitud</legend>
+      <label><input type="checkbox" value="expedicion"> La fecha de expedición de la cédula no coincide</label>
+      <label><input type="checkbox" value="biometria"> La selfie no pasó la biometría</label>
+      <label><input type="checkbox" value="dispositivo"> El dispositivo lo usaron varias cédulas</label>
+      <label><input type="checkbox" value="linea"> La línea telefónica era nueva</label>
+      <label><input type="checkbox" value="correo"> El correo se creó días antes</label>
+      <label><input type="checkbox" value="ubicacion"> Entrega o conexión en otra ciudad</label>
+      <label><input type="checkbox" value="reventa"> Celular o electrónica por casi todo el cupo</label>
+    </fieldset>
+    <p class="txt-critico" id="rad-error" role="alert"></p>
+    <div class="botones"><button type="submit" class="btn btn-principal">Radicar y abrir el caso</button><button type="button" class="btn btn-secundario" id="rad-cancelar">Cancelar</button></div>
+  </form>
+</div>
+
+<div class="dialogo" id="dialogo-atajos" role="dialog" aria-modal="true" aria-labelledby="t-atajos" hidden>
+  <div class="dialogo-cuerpo dialogo-angosto">
+    <h2 class="tarjeta-titulo" id="t-atajos">Atajos de teclado</h2>
+    <dl class="atajos">
+      <div><dt><kbd>Ctrl</kbd> <kbd>K</kbd></dt><dd>Buscar o preguntar</dd></div>
+      <div><dt><kbd>1</kbd> a <kbd>6</kbd></dt><dd>Ir a cada sección</dd></div>
+      <div><dt><kbd>Alt</kbd> <kbd>→</kbd> <kbd>←</kbd></dt><dd>Siguiente o anterior día hábil</dd></div>
+      <div><dt><kbd>J</kbd> <kbd>K</kbd></dt><dd>Siguiente o anterior caso con el panel abierto</dd></div>
+      <div><dt><kbd>Esc</kbd></dt><dd>Cerrar la ventana de encima</dd></div>
+      <div><dt><kbd>?</kbd></dt><dd>Ver estos atajos</dd></div>
+    </dl>
+    <label class="interruptor"><input type="checkbox" id="atajos-simples" checked> Atajos de una sola tecla (1 a 6, J, K y ?)</label>
+    <p class="nota">Desactívalos si usas un lector de pantalla o dictado por voz: así ninguna letra suelta dispara una acción.</p>
+    <div class="botones"><button type="button" class="btn btn-principal" id="atajos-cerrar">Entendido</button></div>
+  </div>
+</div>
+
+<div class="recorrido" id="recorrido" hidden>
+  <div class="rec-foco" id="rec-foco" hidden></div>
+  <div class="rec-tarjeta" id="rec-tarjeta" role="dialog" aria-labelledby="rec-titulo" aria-live="polite">
+    <p class="etq" id="rec-paso"></p>
+    <h2 class="tarjeta-titulo" id="rec-titulo"></h2>
+    <p id="rec-texto"></p>
+    <div class="botones">
+      <button type="button" class="btn btn-secundario btn-compacto" id="rec-anterior">Anterior</button>
+      <button type="button" class="btn btn-principal btn-compacto" id="rec-siguiente">Siguiente</button>
+      <button type="button" class="btn btn-enlace" id="rec-salir">Salir</button>
+    </div>
+  </div>
+</div>
+
+<div class="aviso-flotante" id="aviso-flotante" hidden><span id="aviso-texto"></span><button type="button" class="aviso-accion" id="aviso-accion" hidden>Deshacer</button></div>
+
+<script src="calendario.js"></script>
+<script src="datos.js"></script>
+<script src="idiomas.js"></script>
+<script src="idioma-en.js"></script>
+<script src="idioma-pt.js"></script>
+<script src="extras.js"></script>
+<script src="asistente.js"></script>
+<script src="vistas.js"></script>
+<script src="detalle.js"></script>
+<script src="pro.js"></script>
+<script src="integraciones.js"></script>

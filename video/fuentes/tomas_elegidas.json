@@ -1,0 +1,146 @@
+{
+ "s00": {
+  "toma": "s00_03.wav",
+  "puntaje": 1.0,
+  "dur": 2.96,
+  "oido": "Mesa de Cotejo. Te explico cómo funciona."
+ },
+ "s01": {
+  "toma": "s01_03.wav",
+  "puntaje": 0.621,
+  "dur": 4.96,
+  "oido": "En Colombia hay una ley nueva, la Ley 2573, de 2026."
+ },
+ "s02": {
+  "toma": "s02_21.wav",
+  "puntaje": 1.0,
+  "dur": 4.52,
+  "oido": "Obliga a quien presta plata a atender rápido los reclamos de las personas a las que les robaron la identidad."
+ },
+ "s03": {
+  "toma": "s03_07.wav",
+  "puntaje": 0.894,
+  "dur": 6.68,
+  "oido": "Si no responden 15 días hábiles, el reclamo queda resuelto a favor de la persona y la entidad se expone a una sanción."
+ },
+ "s05": {
+  "toma": "s05_03.wav",
+  "puntaje": 1.0,
+  "dur": 6.8,
+  "oido": "En el resumen, los números de arriba dicen cuántos casos hay, cuántos están por vencer y cuántos plazos ya se incumplieron."
+ },
+ "s06": {
+  "toma": "s06_03.wav",
+  "puntaje": 1.0,
+  "dur": 7.8,
+  "oido": "El aviso, si nadie actúa, calcula cuántos reclamos, y por cuanta plata quedarían resueltos a favor de las personas si nadie hace nada."
+ },
+ "s08": {
+  "toma": "s08_07.wav",
+  "puntaje": 1.0,
+  "dur": 4.88,
+  "oido": "La bandeja es la lista de casos, ordenada por prioridad, arriba va lo más urgente."
+ },
+ "s09": {
+  "toma": "s09_07.wav",
+  "puntaje": 1.0,
+  "dur": 5.96,
+  "oido": "Al abrir un caso aparece su reloj legal, sólo cuenta días hábiles, sin sábados, domingos ni festivos."
+ },
+ "s10": {
+  "toma": "s10_03.wav",
+  "puntaje": 1.0,
+  "dur": 4.52,
+  "oido": "Debajo están las obligaciones, cada una con su artículo de la ley y su fecha límite."
+ },
+ "s11": {
+  "toma": "s11_21.wav",
+  "puntaje": 1.0,
+  "dur": 4.64,
+  "oido": "El Cotejo pone lado a lado lo que se recibió al aprobar el crédito y lo que trae la persona."
+ },
+ "s12": {
+  "toma": "s12_03.wav",
+  "puntaje": 1.0,
+  "dur": 2.6,
+  "oido": "Lo que no coincide queda marcado en rojo."
+ },
+ "s13": {
+  "toma": "s13_03.wav",
+  "puntaje": 1.0,
+  "dur": 3.72,
+  "oido": "Con eso sale un puntaje de evidencia y cada punto dice por qué sumó."
+ },
+ "s14": {
+  "toma": "s14_03.wav",
+  "puntaje": 1.0,
+  "dur": 2.96,
+  "oido": "La mesa recomienda, pero siempre decide una persona."
+ },
+ "s15": {
+  "toma": "s15_03.wav",
+  "puntaje": 1.0,
+  "dur": 3.8,
+  "oido": "No hay botón de rechazar, porque eso solo lo puede decidir un juez."
+ },
+ "s16": {
+  "toma": "s16_03.wav",
+  "puntaje": 1.0,
+  "dur": 2.88,
+  "oido": "y las exoneraciones grandes necesitan dos firmas."
+ },
+ "s17": {
+  "toma": "s17_07.wav",
+  "puntaje": 1.0,
+  "dur": 4.44,
+  "oido": "La red de fraude une los casos que comparten celular, dirección o asesor."
+ },
+ "s18": {
+  "toma": "s18_03.wav",
+  "puntaje": 1.0,
+  "dur": 4.84,
+  "oido": "Aquí nueve reclamos que parecían sueltos son una sola red y eso se investiga."
+ },
+ "s19": {
+  "toma": "s19_03.wav",
+  "puntaje": 1.0,
+  "dur": 3.08,
+  "oido": "En cumplimiento se ve qué plazos se cumplieron a tiempo."
+ },
+ "s20": {
+  "toma": "s20_03.wav",
+  "puntaje": 0.947,
+  "dur": 5.16,
+  "oido": "La habitácora guarda cada acción con su fecha y su responsable, y nadie puede alterarla sin que se note."
+ },
+ "s21": {
+  "toma": "s21_03.wav",
+  "puntaje": 1.0,
+  "dur": 4.36,
+  "oido": "Para probarla, cambia la fecha simulada con las flechas. Todo se recalcula solo."
+ },
+ "s22": {
+  "toma": "s22_11.wav",
+  "puntaje": 0.929,
+  "dur": 4.72,
+  "oido": "Con control más K, buscas un caso o le preguntas a la inteligencia artificial."
+ },
+ "s23": {
+  "toma": "s23_07.wav",
+  "puntaje": 1.0,
+  "dur": 2.4,
+  "oido": "También funciona en inglés y en portugués."
+ },
+ "s24": {
+  "toma": "s24_03.wav",
+  "puntaje": 1.0,
+  "dur": 3.4,
+  "oido": "Y recuerda, todos los datos son ficticios."
+ },
+ "s25": {
+  "toma": "s25_21.wav",
+  "puntaje": 0.968,
+  "dur": 3.32,
+  "oido": "Datos ficticios. Demostración para entrevista."
+ }
+}

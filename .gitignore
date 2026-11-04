@@ -1,0 +1,2 @@
+# Flujo de GitHub Actions: necesita el permiso «workflow» en gh (gh auth refresh -s workflow)
+.github/

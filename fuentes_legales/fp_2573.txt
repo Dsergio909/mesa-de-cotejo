@@ -1,0 +1,189 @@
+ 
+﻿ 
+ Ley 2573 de 2026 - Gestor Normativo - Función Pública 
+ -->
+ INGRESAR A LA INTRANET 
+ A+ 
+ A- 
+ INGRESAR A LA INTRANET 
+ RSS 
+ A+ 
+ A- 
+ -->
+ -->
+ -->
+ --> 
+ EVA 
+ Publicaciones 
+ Gestor Normativo 
+ Red de servidores 
+ Cursos virtuales 
+ Curso de integridad Programa de inducción y reinducción Curso para Veedurías Ciudadanas Curso para Gerentes PÃºblicos Curso MIPG Curso de Empleo PÃºblico 
+ Formatos 
+ Contáctenos 
+ Preguntas frecuentes 
+ EVA 
+ Gestor Normativo 
+ Normas de la Función Pública
+ Ley 2573 de 2026 
+ -->
+ Descargar PDF 
+ Fechas
+ Fecha de Expedición: 19 de mayo de 2026
+ Fecha de Entrada en Vigencia: 19 de mayo de 2026
+ Medio de Publicación: 
+ Temas (1)
+ MEDIDAS DE PROTECCION
+ - Subtema: SUPLANTACION DE IDENTIDAD ANTE ENTIDADES FINANCIERAS Y CREDITICIAS, OPERADORES DE TELECOMUNICACION.
+ POR MEDIO DEL CUAL SE ESTABLECEN MEDIDAS PARA PROTEGER A LAS PERSONAS DEL REPORTE NEGATIVO ANTE OPERADORES DE INFORMACiÓN Y EL COBRO DE OBLIGACIONES EN CASOS DE SUPLANTACiÓN DE IDENTIDAD ANTE LOS OPERADORES DE TELECOMUNICACIONES, LAS ENTIDADES FINANCIERAS -CREDITICIAS Y DEMÁS ESTABLECIMIENTOS COMERCIALES CON ESTA COMPETENCIA
+ Vigencias(0)
+ X -->
+ Los datos publicados tienen propósitos exclusivamente informativos. El Departamento Administrativo de la Función Pública no se hace responsable de la vigencia de la presente norma. Nos encontramos en un proceso permanente de actualización de los contenidos. 
+ LEY ESTATUTARIA 2573 DE 2026 
+ (Mayo 19) 
+ Por medio del cual se establecen medidas para proteger a las personas del reporte negativo ante operadores de información y el cobro de obligaciones en casos de suplantación de identidad ante los operadores de telecomunicaciones, las entidades financieras - crediticias y demás establecimientos comerciales con esta competencia y se dictan otras disposiciones 
+ EL CONGRESO DE COLOMBIA, 
+ DECRETA: 
+ ARTÍCULO 1°. Objeto. La presente ley tiene por objeto la adopción de medidas, procesos y políticas por parte de los operadores de telecomunicaciones y las entidades financieras-crediticias y demás establecimientos comerciales con esta competencia, para proteger los derechos de las personas suplantadas en su identidad de reportes negativos ante operadores de información y el cobro de obligaciones.
+ ARTÍCULO 2°. Principios. Serán aplicables los principios contenidos en la Ley 1266 de 2008 y la Ley 1581 de 2012, y en especial los que a continuación se enuncian, sin perjuicio de la aplicación integral de los principios enunciados en aquellas leyes:
+ Principio de acceso y circulación restringida. El Tratamiento de datos se sujeta a los límites que se derivan de la naturaleza de los datos personales, de las disposiciones de la presente ley y la Constitución. En este sentido, el tratamiento sólo podrá hacerse por personas autorizadas por el titular y/o por las personas previstas en la presente ley.
+ Los datos personales, salvo la información pública, no podrán estar disponibles en internet u otros medios de divulgación o comunicación masiva, salvo que el acceso sea técnicamente controlable para brindar un conocimiento restringido sólo a los titulares o terceros autorizados conforme a la presente ley.
+ b. Principio de seguridad. La información sujeta a tratamiento por el responsable del tratamiento o encargado del tratamiento a que se refiere la presente ley, se deberá manejar con las medidas técnicas, humanas y administrativas que sean necesarias para otorgar seguridad a los registros evitando su adulteración, duplicación, pérdida, consulta, uso o acceso no autorizado o fraudulento.
+ c. Principio de veracidad. La información sujeta a tratamiento debe ser veraz, completa, exacta, actualizada, comprobable y comprensible. Se prohíbe el tratamiento de datos parciales, incompletos, fraccionados o que induzcan a error.
+ d. Principio de carga dinámica de la prueba. Tendrá obligación de probar la parte que mejor se encuentre en condiciones de hacerlo. En materia de suplantación, los operadores de telecomunicaciones y las entidades financieras y/o crediticias deberán en1regor la información y documentos que recibieron paro hacer-lo aprobación del bien o servicio.
+ ARTÍCULO 3°. Definiciones. Para los efectos de la presente ley, se entiende por:
+ Ciberseguridad. Es el desarrollo de capacidades de entidades públicas y privadas para defender y anticipar las amenazas cibernéticas o de ingeniería social con el fin de proteger y asegurar los datos, sistemas y aplicaciones en el ciberespacio que son esenciales para la operación de la entidad.
+ Ingeniería social. Método utilizado por los atacantes cibernéticos para engañar a los usuarios informáticos, para que realicen una acción que normalmente produce consecuencias negativas, como la descarga de virus informáticos y/o la divulgación de información personal.
+ Persona suplantada. Es la persona natural y/o jurídica que es afectada por la utilización de sus datos personales de forma fraudulenta a través de medios físicos y/o digitales.
+ Seguridad digital. Situación de normalidad y tranquilidad del entorno digital, resultado de la promoción de la gestión del riesgo, el tratamiento adecuado de datos personales, la implementación de medidas de ciberseguridad y el uso efectivo de las capacidades de defensa digital.
+ Suplantación de identidad digital. Hacerse pasar por otra persona para obtener un beneficio, engañar a terceros, obtener bienes y servicios con cargo a la persona suplantada, incurrir en fraudes, entre otras conductas ilícitas a través del uso de programas informáticos, páginas informativas y/o electrónicas, correos electrónicos o, ingeniería social y mensajes de texto -MSM-.
+ Suplantación de identidad física. Hacerse pasar por otra persona para obtener un beneficio, engañar a terceros, obtener bienes y servicios con cargo a la persona suplantada, incurrir en fraudes, entre otras conductas ilícitas.
+ Fuente. Es la persona, entidad u organización que recibe o conoce datos personales de los titulares de la información, en virtud de una relación comercial o de servicio o de cualquier otra índole y que, en razón de autorización legal o del titular, suministra esos datos a un operador de información, el que a su vez los entregará al usuario final.
+ ARTÍCULO 4°. Tipos de suplantación de identidad. Para los efectos de la aplicación de la presente ley la suplantación de identidad se presentará en los siguientes casos:
+ La suplantación de identidad mediante la expedición y uso de datos para fines ilícitos. Se presenta cuando se gestiona, obtiene, usa, venda, ofrezca, posea, suministre, intercambie, divulgue y/o emplee para fines ilícitos entre otros los siguientes:
+ Documentos de identificación personal nacional o extranjera, que no le pertenezca a quien la posee.
+ Datos personales sin autorización del titular de los mismos.
+ Tarjetas débito o crédito expedidas por entidades financieras y/o crediticias nacionales o extranjeras, que no le pertenezcan a quien las posee, y/o realice compras o transacciones con éstas.
+ Creación de perfiles digitales falsos que afecten la honra y buen nombre del titular de los datos personales suplantados.
+ b. La suplantación de identidad mediante medios electrónicos. Ocurre cuando la suplantación se da a través de prácticas consistentes en el diseño, elaboración, desarrollo, descarga, comercialización, envío, venta, suministro, o uso para fines ilícitos de medios electrónicos que están dirigidos a obtener sin autorización del titular información o datos personales.
+ ARTÍCULO 5°. Obligaciones de los operadores de telecomunicaciones y las entidades financieras y/o crediticias y demás establecimientos comerciales con esta competencia. Sin perjuicio de las obligaciones contenidas en la Ley 1266 de 2008 y 1581 de 2012, será deber de los operadores de telecomunicaciones y las entidades financieras y/o crediticias y demás establecimientos comerciales con esta competencia:
+ Adoptar las medidas de seguridad digital suficientes y razonables necesarias para establecer la veracidad de la identidad de las personas y los documentos presentados para adquirir sus productos y/o servicios.
+ Cuando exista denuncia de falsedad personal o delitos conexos, se debe realizar el reporte correspondiente a los operadores de información, marcándolo como "víctima de falsedad personal", sin que esto impacte la puntuación de la presunta víctima de suplantación.
+ Adoptar mecanismos suficientes y razonables que permitan validar la información que suministran las personas que adquieren sus productos y/o servicios. La validación de la veracidad de la información suministrada se hará bajo el principio de buena fe.
+ Dar trámite oportuno a las solicitudes y/o quejas allegadas por las personas suplantadas, dentro de los diez (10) días hábiles siguientes a la radicación del mismo, de conformidad con lo señalado en la Ley 2157 de 2021.
+ Suspender de forma inmediata la prestación o suministro de los bienes y/o servicios que se hubiesen adquirido por conducta fraudulenta, una vez sean informados por las personas suplantadas.
+ Comunicar a la persona suplantada el término de que trata el artículo 7º de la presente ley, con el fin de ser beneficiario de suspensión de los cobros y reportes a los operadores de información financieras y/o crediticias.
+ A solicitud de la persona presuntamente suplantada, entregar copia de la información y/o documentos aportados para la aprobación del producto y/o servicio que se haya solicitado a su nombre. Bajo ninguna circunstancia podrá negarse la entrega de esta información a la persona.
+ Emitir el respectivo reporte a la Dirección de Impuestos Nacionales, para evitar que la persona suplantada sufra perjuicios de carácter tributario como consecuencia de las defraudaciones efectuadas.
+ La fuente cuando indique discrepancias entre los documentos utilizados para adquirir la obligación que se disputa, con los documentos allegados por el titular en la petición, los cuales se tendrán como prueba sumaria para probar la falsedad, deberá anunciar el delito de estafa del que haya podido ser víctima.
+ Adelantar la investigación pertinente para determinar una probable responsabilidad de funcionarios de la entidad financiera o establecimiento comercial en la suplantación de identidad, interponiendo las respectivas acciones judiciales, en caso de encontrar eventuales indicios o pruebas en el caso.
+ Parágrafo 1º. De conformidad con el numeral 1 del artículo 2 del Decreto 1064 de 2020, la Ley 1266 de 2008 y la Ley 1581 de 2012 dentro de los 6 meses siguientes a la expedición de la presente ley, la Superintendencia de Industria y Comercio SIC y la Superintendencia Financiera, en coordinación con el Ministerio de Tecnologías de la Información y las Comunicaciones, en el marco de cada una de sus competencias deberán reglamentar los protocolos para atender oportunamente los reportes de posible suplantación por parte de los operadores de telecomunicaciones y las entidades financieras y/o crediticias y demás establecimientos comerciales con esta competencia en procesos de adquirir bienes o servicios de manera física y/o medios electrónicos por parte de particulares. Los protocolos deberán incluir mecanismos, herramientas y metodologías idóneos que permitan la plena identificación del potencial adquirente.
+ Parágrafo 2°. En caso de que se verifique el incumplimiento de los lineamientos, recomendaciones y protocolos de seguridad expedidos por las autoridades competentes y hubiere una solicitud de corrección del titular manifestando ser víctima de suplantación, en los términos del artículo 7º de la presente ley, dará lugar a la suspensión de la gestión de cobranza y a la modificación sobre el reporte realizado en las centrales financieras y/o crediticias y los operadores de información. El incumplimiento igualmente dará lugar a la obligación de devolución oportuna de los dineros y/o la eliminación de las acreencias que fueron objeto de defraudación a la persona suplantada. No podrá congelarlos ni esperar respuesta o autorización del titular de la cuenta donde fueron transferidos los dineros objeto de defraudación para el reverso de la transacción.
+ Parágrafo 3º. La elución de respuesta a las solicitudes o quejas del numeral 3, tiene efectos de silencio en los términos dispuestos en la Ley 2157 de 2021.
+ ARTÍCULO 6°. Obligaciones de la persona suplantada. Será deber de las personas suplantadas, una vez tengan conocimiento de la ocurrencia de suplantación de identidad:
+ Informar al operador de telecomunicaciones o entidad financiera y/o crediticias y demás establecimientos comerciales con esta competencia, que ha sido suplantado en su identidad en cuanto tenga conocimiento de ese hecho para la cancelación del bien y/o servicio adquirido sin su autorización.
+ Aportar los documentos y elementos de prueba sumaria que sirvan para demostrar que ha sido suplantada y con esto coadyuvar tanto a la entidad como a las autoridades judiciales a esclarecer los hechos.
+ Denunciar ante la Fiscalía General de la Nación o la Policía Nacional el presunto delito de falsedad personal, documental y conexos de los cuales ha sido víctima.
+ En caso de ser suplantado mediante la creación de perfiles digitales falsos en cualquier red social, la persona afectada debe realizar de forma oportuna la denuncia o reclamación, según corresponda, ante estas plataformas y la Fiscalía General de la Nación.
+ Realizar la prueba de validación de identidad que establezca el operador de telecomunicaciones o entidad financiera y/o crediticia y demás establecimientos comerciales con esta competencia, ante quien se haya informado que ha sido suplantado en su identidad.
+ ARTÍCULO 7°. Reporte a centrales de riesgo y/o entidades de información financiera y/o crediticia y demás establecimientos comerciales con esta competencia. Modifíquese el artículo 7 de la Ley 2157 de 2021 que añade los numerales 7 y 8 en el numeral II del artículo 16 de la Ley 1266 de 2008 el cual quedará de la siguiente manera:
+ "Artículo 7°. Adiciónese los numerales 7 y 8 en el numeral II del artículo 16 de la Ley 1266 de 2008, que quedarán así:
+ De los casos de suplantación. En caso de que el titular de la información manifieste ser víctima del delito de falsedad personal contemplado en el Código Penal, y le sea exigido el pago de obligaciones como resultado de la conducta punible de la que es víctima, deberá poner en conocimiento y solicitar la corrección ante la fuente adjuntando los soportes correspondientes.
+ La fuente, una vez reciba la solicitud, deberá cotejar, dentro de los diez (10) días hábiles siguientes, los documentos utilizados para adquirir la obligación que se disputa, con los documentos allegados por el titular en la petición, los cuales se tendrán como prueba sumaria para probar la falsedad y sin la exigencia de ningún requisito adicional, la fuente deberá solicitar la modificación del dato negativo, récord (scoringsscore) y cualquier otro dato que refleje el comportamiento del titular de la información reflejando que la víctima de falsedad personal no es quien adquirió las obligaciones, y se incluirá una leyenda dentro del registro personal que diga "Víctima de Falsedad Personal".
+ La modificación de que trata el inciso anterior deberá ser efectuada por la fuente dentro de los diez (10) días hábiles siguientes a ser informada por el titular.
+ La fuente, con las discrepancias evidenciadas entre los documentos, deberá denunciar el delito de estafa del que haya podido ser víctima.
+ La leyenda "Víctima de Falsedad Personal" que se incluya en el registro personal del titular de la información no podrá tenerse como un reporte negativo ni podrá ser causal de disminución en la calificación de riesgo ni alterar sus estudios financieros o crediticios.
+ En el análisis del riesgo crediticio se tendrá en cuenta esta marcación con el único fin de realizar una verificación intensificada de la identidad del titular e impedir que esta situación se presente nuevamente.
+ Silencio. Las peticiones o reclamos deberán resolverse dentro de los quince (15) días hábiles siguientes a la fecha de su recibo, prorrogables por ocho (8) días hábiles más, según lo indicado en el numeral 3, parte II, artículo 16 de la presente ley. Si en ese lapso no se ha dado pronta resolución, se entenderá, para todos los efectos legales, que la respectiva solicitud ha sido resuelta favorablemente. Si no lo hiciere, el peticionario podrá solicitar a la Superintendencia de Industria y Comercio y a la Superintendencia Financiera de Colombia, según el caso, la imposición de las sanciones a que haya lugar conforme a la presente ley, sin perjuicio de que ellas adopten las decisiones que resulten pertinentes para hacer efectivo el derecho al hábeas data de los titulares.”
+ ARTÍCULO 8°. Suspensión del cobro de obligaciones por el operador de telecomunicaciones, entidad financiera y/o crediticia y demás establecimientos comerciales con esta competencia. Cuando una persona suplantada se oponga al cobro de un bien o servicio por parte de los operadores de telecomunicaciones o entidades financieras y/o crediticias y demás establecimientos comerciales con esta competencia haciéndoles saber que ha sido víctima de esta conducta conforme a las obligaciones señaladas en el artículo 6 de la presente ley, se deberá proceder de la siguiente manera:
+ Una vez el operador de telecomunicaciones o entidad financiera y/o crediticia y demás establecimientos comerciales con esta competencia es informado de la suplantación de identidad, deberá suspender de manera inmediata el cobro del bien y/o servicio incluyendo los intereses, gastos de cobranza y demás que se pudieren haber generado.
+ El operador de telecomunicaciones o entidad financiera y/o crediticia y demás establecimientos comerciales con esta competencia deberá comunicar a la persona suplantada que a partir de ese momento cuenta con veinte (20) días hábiles para interponer ante la Fiscalía General de la Nación la denuncia por el delito de falsedad personal y conexos de los cuales ha sido víctima y allegar al operador de telecomunicaciones o entidad financiera y/o crediticia y demás establecimientos comerciales con esta competencia los soportes y documentos respectivos los cuales se tendrán como prueba sumaria para que la entidad pueda cancelar el cobro de la obligación si así lo considera.
+ Parágrafo 1º. De no presentarse, dentro del plazo señalado en este artículo, la denuncia y los soportes y los demás documentos referidos en el inciso anterior, el operador de telecomunicaciones o entidad financiera y/o crediticia y demás establecimientos comerciales con esta competencia podrá reanudar el cobro del bien o servicio incluyendo intereses y demás gastos desde el momento en que se había suspendido el cobro, así como efectuar el reporte ante los operadores de información financiera.
+ Parágrafo 2º. El término de prescripción de la acción pauliana consagrada en el artículo 2491 de Código Civil empezará a correr desde el momento en que exista un pronunciamiento judicial que ponga fin a la actuación penal determinándose que no existió la suplantación de identidad, de acuerdo con lo establecido en el artículo 9° de la presente ley.
+ ARTÍCULO 9°. Duración de la suspensión del cobro de obligaciones por el operador de telecomunicaciones o entidad financiera y/o crediticia y demás establecimientos comerciales con esta competencia. Suspendido el cobro del bien o servicio, el operador de telecomunicaciones o entidad financiera y/o crediticia y demás establecimientos comerciales con esta competencia deberá esperar hasta que exista un pronunciamiento judicial que ponga fin a la actuación penal, para determinar si continúa con el cobro o no.
+ De comprobarse por las autoridades judiciales la suplantación de identidad mediante la falsedad personal y delitos conexos, la persona suplantada será exonerada y desvinculada de cualquier cobro y reporte negativo en las centrales de riesgo por parte del operador de telecomunicaciones o entidad financiera y/o crediticia y demás establecimientos comerciales con esta competencia, quienes podrán constituirse como víctimas en el proceso penal.
+ De encontrarse por las autoridades judiciales que no existió suplantación de identidad y que la persona que alegaba haber sido suplantada sí fue quien adquirió el bien o servicio, el operador de telecomunicaciones o entidad financiera y/o crediticia y demás establecimientos comerciales con esta competencia podrá reanudar el cobro del bien o servicio con todos los intereses y demás valores que se hubieren causado como si nunca se hubiera suspendido el cobro. En este caso, mientras el servicio estuvo suspendido a la espera de decisión judicial, no operará para el operador de telecomunicaciones o entidad financiera y/o crediticia y demás establecimientos comerciales con esta competencia el término de prescripción para el cobro de las obligaciones, el cual iniciará una vez quede en firme la decisión de la autoridad judicial que archive o culmine el proceso.
+ La persona que alegaba haber sido suplantada se enfrentará a las responsabilidades penales a que haya lugar por la falsa denuncia y demás conductas sujetas al Código Penal.
+ Parágrafo. Cuando el proceso penal finalice con decisión de archivo por no poder identificar el sujeto activo de la conducta, la Fiscalía General de la Nación deberá indicar si efectivamente ocurrió la falsedad personal, aun cuando no fuera posible seguir con el proceso penal por no identificar el sujeto activo de la conducta, con el fin de que la persona suplantada no se vea sujeta a nuevos cobros o reportes por las obligaciones contraídas por quien cometió el delito.
+ ARTÍCULO 10°. Deber especial del operador de telecomunicaciones, entidad financiera y/o crediticia y de las demás autoridades en el ámbito de sus competencias. Con el fin de coadyuvar a la administración de justicia y recortar los tiempos en la resolución de estos asuntos, el operador de telecomunicaciones o entidad financiera y/o crediticio y demás establecimientos comerciales con esta competencia debe verificar detalladamente la veracidad de la presunta suplantación y de encontrarse elementos que evidencien la suplantación, se liberará a la persona suplantada de la obligación de interponer una denuncia ante la Fiscalía General de la Nación y se le exonerará y desvinculará de cualquier cobro por cuenta de la adquisición de este bien y/o servicio.
+ El operador de telecomunicaciones, la entidad financiera y/o crediticia o las demás autoridades en el ámbito de sus competencias cuando conozca de estos casos, no podrá determinar que no existió suplantación, toda vez que esta decisión estará reservada a las autoridades judiciales competentes.
+ ARTÍCULO 11°. Servicio público de información, asistencia y denuncias. Cada autoridad, en el ámbito de sus competencias, velará por el cumplimiento de las disposiciones enunciadas en la presente ley y podrá actuar en uso de sus facultades en caso de incumplimiento por parte de los operadores de telecomunicaciones o las entidades financieras y/o crediticias y demás establecimientos comerciales con esta competencia única y exclusivamente en referencia en temas relacionados con el manejo de Habeas Data.
+ Las autoridades dispondrán de canales virtuales, físicos y telefónicos para la atención oportuna y de calidad a las quejas, denuncias, reclamos y apelaciones de las personas suplantadas, exclusivamente en temas relacionados con la protección de los datos personales.
+ En estos se brindará información y asistencia sobre las acciones que debe realizar la persona afectada para poner en conocimiento de las entidades públicas y empresas privadas de la suplantación de su identidad.
+ Parágrafo. Dentro de los seis (06) meses siguientes a la expedición de la presente ley, el Gobierno Nacional diseñará y dará a conocer a los ciudadanos la ruta pública integral de servicio y atención a las personas afectadas por la suplantación de su identidad.
+ ARTÍCULO 12°. Cultura de la Seguridad Digital. Autorícese al Ministerio de las Tecnologías de la Información y Comunicaciones, a la Superintendencia de Industria y Comercio y a la Superintendencia Financiera de Colombia a incorporar los recursos necesarios para que se financien productos audiovisuales cortos con perfil multiplataforma que informe a las personas la importancia del manejo de sus datos personales y del correcto uso de las redes sociales y la ruta que deben seguir en caso de ser afectadas por la utilización de sus datos personales de forma fraudulenta ante un operador de telecomunicaciones, entidad financiera y crediticia y demás establecimientos comerciales con esta competencia.
+ Los productos audiovisuales podrán transmitirse a nivel nacional en alguno de los canales del Sistema de Medios Públicos.
+ Parágrafo. Los productos audiovisuales que informen a las personas la importancia del manejo de sus datos personales y del correcto uso de las redes sociales, junto con la ruta que deben seguir en caso de ser afectadas, implementará las herramientas necesarias para que las personas con discapacidades visuales, o auditivas puedan acceder a ella.
+ ARTÍCULO 13°. Vigencia. La presente ley entrará en vigencia dentro de los seis (6) meses siguientes a su promulgación, con excepción de los parágrafos primero y segundo del artículo quinto (5), los cuales entrarán en vigencia con la promulgación de la ley.
+ El Presidente del Honorable Senado de la República, 
+ LIDIO ARTURO GARCIA TURBAY 
+ El Secretario General del Honorable Senado de la República, 
+ DIEGO ALEJANDRO GONZÁLEZ GONZÁLEZ 
+ El Presidente de la Honorable Cámara de Representantes, 
+ JUAN DAVID LÓPEZ TENORIO 
+ El Secretario General de la Honorable Cámara de Representantes, 
+ JAIME LUIS LACOUTURE PEÑALOZA 
+ REPÚBLICA DE COLOMBIA - GOBIERNO NACIONAL 
+ PUBLÍQUESE Y CÚMPLASE. 
+ Dada, a los 19 días del mes de mayo del año 2026. 
+ GUSTAVO PETRO URREGO 
+ El Ministro de Hacienda y Crédito Público, 
+ GERMAN AVILA PLAZAS 
+ La Ministra de Comercio, Industria y Turismo, 
+ DIANA MARCELA MORALES ROJAS 
+ La Ministra de Tecnologías de la Información y las Comunicaciones, 
+ YEIMI CARINA MURCILA YELA 
+ Volver Atrás 
+ Presidencia 
+ -->
+ Vicepresidencia 
+ MinJusticia 
+ MinDefensa 
+ MinTrabajo 
+ MinInterior 
+ MinCiencias 
+ MinRelaciones 
+ MinHacienda 
+ MinSalud 
+ MinEnergía 
+ MinComercio 
+ MinDeporte 
+ MinTIC 
+ MinEducacion 
+ MinCultura 
+ MinAgricultura 
+ MinAmbiente 
+ MinTransporte 
+ MinVivienda 
+ Urna de Cristal 
+ entidad del sector
+ función publica
+ Carrera 6 # 12-62,
+ Bogotá D.C.
+ Código Postal: 111711
+ Teléfono Conmutador:: (+57) 601 5956600 
+ Línea gratuita nacional: 018000931186 
+ www.funcionpublica.gov.co 
+ Correo de Contacto: eva@funcionpublica.gov.co 
+ Notificaciones judiciales:
+ notificacionesjudiciales@funcionpublica.gov.co 
+ contacto
+ Horario de atención presencial grupo de Servicio al ciudadano:
+ Lunes a Viernes, 7:30 a.m a 6:00 p.m
+ Recepción de correspondencia:
+ Lunes a viernes, 8:00 am a 4:00 pm Jornada Continua
+ Línea gratuita nacional: 018000917770
+-->
+ servicios al ciudadano
+ Notificaciones judiciales 
+ Notificación de actos administrativos 
+ Notificaciones a terceros 
+ Denuncias por actos de corrupción 
+ Participación ciudadana 
+ Preguntas frecuentes 
+ Formule su petición PQRS 
+ Mapa del sitio 
+ Ingreso correo institucional 
+ Estadísticas del sitio 
+ Acceder 
+ Política de Privacidad | Términos y condiciones de uso 

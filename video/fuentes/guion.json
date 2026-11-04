@@ -1,0 +1,167 @@
+[
+ {
+  "id": "s00",
+  "tipo": "titulo",
+  "voz": "Mesa de Cotejo. Te explico cómo funciona."
+ },
+ {
+  "id": "s01",
+  "paso": 1,
+  "escena": "El problema",
+  "img": "metodo",
+  "sub": "En Colombia hay una ley nueva: la Ley 2573 de 2026."
+ },
+ {
+  "id": "s02",
+  "paso": 1,
+  "escena": "El problema",
+  "img": "metodo",
+  "sub": "Obliga a quien presta plata a atender rápido los reclamos de las personas a las que les robaron la identidad."
+ },
+ {
+  "id": "s03",
+  "paso": 1,
+  "escena": "El problema",
+  "img": "metodo_plazo",
+  "sub": "Si no responde en 15 días hábiles, el reclamo queda resuelto a favor de la persona, y la entidad se expone a una sanción."
+ },
+ {
+  "id": "s05",
+  "paso": 2,
+  "escena": "Resumen",
+  "img": "resumen_kpis",
+  "sub": "En el Resumen, los números de arriba dicen cuántos casos hay, cuántos están por vencer y cuántos plazos ya se incumplieron."
+ },
+ {
+  "id": "s06",
+  "paso": 2,
+  "escena": "Resumen",
+  "img": "resumen_pron",
+  "sub": "El aviso «Si nadie actúa» calcula cuántos reclamos, y por cuánta plata, quedarían resueltos a favor de las personas si nadie hace nada."
+ },
+ {
+  "id": "s08",
+  "paso": 3,
+  "escena": "Bandeja",
+  "img": "bandeja_top",
+  "sub": "La Bandeja es la lista de casos, ordenada por prioridad: arriba va lo más urgente."
+ },
+ {
+  "id": "s09",
+  "paso": 4,
+  "escena": "Un caso abierto",
+  "img": "caso_reloj",
+  "sub": "Al abrir un caso aparece su reloj legal. Solo cuenta días hábiles: sin sábados, domingos ni festivos."
+ },
+ {
+  "id": "s10",
+  "paso": 4,
+  "escena": "Un caso abierto",
+  "img": "caso_oblig",
+  "sub": "Debajo están las obligaciones, cada una con su artículo de la ley y su fecha límite."
+ },
+ {
+  "id": "s11",
+  "paso": 4,
+  "escena": "Un caso abierto",
+  "img": "caso_docs",
+  "sub": "El cotejo pone lado a lado lo que se recibió al aprobar el crédito y lo que trae la persona."
+ },
+ {
+  "id": "s12",
+  "paso": 4,
+  "escena": "Un caso abierto",
+  "img": "caso_cotejo",
+  "sub": "Lo que no coincide queda marcado en rojo."
+ },
+ {
+  "id": "s13",
+  "paso": 4,
+  "escena": "Un caso abierto",
+  "img": "caso_puntaje",
+  "sub": "Con eso sale un puntaje de evidencia, y cada punto dice por qué sumó."
+ },
+ {
+  "id": "s14",
+  "paso": 5,
+  "escena": "La decisión",
+  "img": "decision",
+  "sub": "La mesa recomienda, pero siempre decide una persona."
+ },
+ {
+  "id": "s15",
+  "paso": 5,
+  "escena": "La decisión",
+  "img": "decision_botones",
+  "sub": "No hay botón de «rechazar», porque eso solo lo puede decidir un juez."
+ },
+ {
+  "id": "s16",
+  "paso": 5,
+  "escena": "La decisión",
+  "img": "decision_firmas",
+  "sub": "Y las exoneraciones grandes necesitan dos firmas."
+ },
+ {
+  "id": "s17",
+  "paso": 6,
+  "escena": "Red de fraude",
+  "img": "red",
+  "sub": "La Red de fraude une los casos que comparten celular, dirección o asesor."
+ },
+ {
+  "id": "s18",
+  "paso": 6,
+  "escena": "Red de fraude",
+  "img": "red_grafo",
+  "sub": "Aquí, nueve reclamos que parecían sueltos son una sola red, y eso se investiga."
+ },
+ {
+  "id": "s19",
+  "paso": 7,
+  "escena": "Cumplimiento",
+  "img": "cumplimiento",
+  "sub": "En Cumplimiento se ve qué plazos se cumplieron a tiempo."
+ },
+ {
+  "id": "s20",
+  "paso": 7,
+  "escena": "Cumplimiento",
+  "img": "cumplimiento_registro",
+  "sub": "La bitácora guarda cada acción con su fecha y su responsable, y nadie puede alterarla sin que se note."
+ },
+ {
+  "id": "s21",
+  "paso": 8,
+  "escena": "Cómo usarla",
+  "img": "uso_fecha",
+  "sub": "Para probarla, cambia la fecha simulada con las flechas: todo se recalcula solo."
+ },
+ {
+  "id": "s22",
+  "paso": 8,
+  "escena": "Cómo usarla",
+  "img": "uso_paleta",
+  "sub": "Con Ctrl+K buscas un caso o le preguntas a la inteligencia artificial.",
+  "voz": "Con control más K, buscas un caso o le preguntas a la inteligencia artificial."
+ },
+ {
+  "id": "s23",
+  "paso": 8,
+  "escena": "Cómo usarla",
+  "img": "uso_ingles",
+  "sub": "También funciona en inglés y en portugués."
+ },
+ {
+  "id": "s24",
+  "paso": 8,
+  "escena": "Cómo usarla",
+  "img": "uso_ficticio",
+  "sub": "Y recuerda: todos los datos son ficticios."
+ },
+ {
+  "id": "s25",
+  "tipo": "cierre",
+  "voz": "Datos ficticios. Demo para entrevista."
+ }
+]

@@ -1,0 +1,953 @@
+function insRow1()
+{
+var description = new Array();
+description[0] = " NOTAS DE VIGENCIA: 
+ - Modificada por la Ley 2573 de 19 de mayo de 2026, 'por medio del cual se establecen medidas para proteger a las personas del reporte negativo ante operadores de información y el cobro de obligaciones en casos de suplantación de identidad ante los operadores de telecomunicaciones, las entidades financieras - crediticias y demás establecimientos comerciales con esta competencia, y se dictan otras disposiciones', publicada en el Diario Oficial No. 53.496 de 20 de mayo de 2026. Rige a partir de su publicación en el Diario Oficial.
+ - Modificada por la Ley 2157 de 2021, 'por medio de la cual se modifica y adiciona la Ley Estatutaria 1266 de 2008, y se dictan disposiciones generales del Hábeas Data con relación a la información financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones', publicada en el Diario Oficial No. 51.842 de 29 de octubre de 2021.
+ ";
+var z=document.getElementById('Table1').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table1').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table1').deleteRow(0)
+ }
+}
+function insRow2()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado) “por la cual se dictan las disposiciones generales del hábeas data y se regula el manejo de la información contenida en bases de datos personales, en especial la financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones.” , Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró exequible el proyecto de ley en su aspecto formal.
+ ";
+var z=document.getElementById('Table2').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table2').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table2').deleteRow(0)
+ }
+}
+function insRow3()
+{
+var description = new Array();
+description[0] = " Destaca el editor lo dispuesto por la Corte Constitucional en la Sentencia C-748-11 de 6 de octubre de 2011, Magistrado Ponente Dr. Jorge Ignacio Pretelt Chaljub:
+ 'En el caso colombiano, el proyecto de ley que dio lugar a la Ley 1266 de 2008 buscaba convertirse en una ley de principios generales aplicable a todas las categorías de datos personales. Sin embargo, como observó esta Corporación en la sentencia C-1011 de 2008[49], pese a su pretensión de generalidad, el proyecto de ley en realidad solamente establecía estándares básicos de protección para el dato financiero y comercial destinado a calcular el nivel de riesgo crediticio de las personas. Por ello en la referida sentencia, la Corte dejó claro que la materia de lo que luego se convertiría en la Ley 1266 es solamente el dato financiero y comercial.[50] Por tanto, la Ley 1266 solamente puede ser considerada una regulación sectorial del habeas data. 
+ Este nuevo proyecto de ley <Ley 1581 de 2012> busca llenar el vacío de estándares mínimos de protección de todos los datos personales –anunciado por la Corte Constitucional en la sentencia C-1011 de 2008, de ahí que su título sea precisamente “Por el cual se dictan disposiciones generales para la protección de datos personales”. Esa intención también fue anunciada por el gobierno en la exposición de motivos, en la que afirmó: “(…) es necesario que el país cuente con una legislación integral y transversal que garantice la protección efectiva de los datos personales en todo el proceso de tratamiento”. Como se verá más adelante, pese a varias deficiencias que presenta el proyecto, puede concluirse que efectivamente introduce principios y reglas generales destinadas a garantizar algunos contenidos mínimos del derecho al habeas data, entendido de la forma como se expuso previamente. 
+ En consecuencia, con la introducción de esta reglamentación general y mínima aplicable en mayor o menor medida a todos los datos personales, el legislador ha dado paso a un sistema híbrido de protección en el que confluye una ley de principios generales con otras regulaciones sectoriales, que deben leerse en concordancia con la ley general, pero que introduce reglas específicas que atienden a la complejidad del tratamiento de cada tipo de dato.'. 
+ ";
+var z=document.getElementById('Table3').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table3').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table3').deleteRow(0)
+ }
+}
+function insRow4()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table4').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table4').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table4').deleteRow(0)
+ }
+}
+function insRow5()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table5').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table5').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table5').deleteRow(0)
+ }
+}
+function insRow6()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Literal declarado CONDICIONALMENTE EXEQUIBLE por la Corte Constitucional mediante Sentencia C-1011-08 de 16 de octubre de 2008, Magistrado Ponente Dr. Jaime Córdoba Triviño, 'en el entendido que el operador es responsable a partir de la recepción del dato suministrado por la fuente, por el incumplimiento de los deberes de diligencia y cuidado en relación con la calidad de la información personal, consagrados en esta Ley Estatutaria'
+ ";
+var z=document.getElementById('Table6').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table6').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table6').deleteRow(0)
+ }
+}
+function insRow7()
+{
+var description = new Array();
+description[0] = " - Literal adicionado por el artículo 2 de la Ley 2157 de 2021, 'por medio de la cual se modifica y adiciona la Ley Estatutaria 1266 de 2008, y se dictan disposiciones generales del Hábeas Data con relación a la información financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones', publicada en el Diario Oficial No. 51.842 de 29 de octubre de 2021.
+ ";
+var z=document.getElementById('Table7').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table7').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table7').deleteRow(0)
+ }
+}
+function insRow8()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL el litqral k) adicionado por el artículo 2 de la Ley 2157 de 2021.
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo, salvo lo previsto en el literal c) 'en el entendido que respecto a lo previsto en el literal c) de este artículo, el operador es responsable a partir de la recepción del dato suministrado por la fuente, por el incumplimiento de los deberes de diligencia y cuidado en relación con la calidad de la información personal, consagrados en esta Ley Estatutaria' ; y la expresión tachada del literal j), que se declara INEXEQUIBLE.
+ ";
+var z=document.getElementById('Table8').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table8').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table8').deleteRow(0)
+ }
+}
+function insRow9()
+{
+var description = new Array();
+description[0] = " Texto original del Proyecto de Ley: 
+ j) <Aparte tachado INEXEQUIBLE> Información financiera, crediticia, comercial, de servicios y la proveniente de terceros países. 
+ Para todos los efectos de la presente ley se entenderá por información financiera, crediticia, comercial, de servicios y la proveniente de terceros países, aquella referida al nacimiento, ejecución y extinción de obligaciones dinerarias, independientemente de la naturaleza del contrato que les dé origen, así como la información relativa a las demás actividades propias del sector financiero o sobre el manejo financiero o los estados financieros del titular .
+ ";
+var z=document.getElementById('Table9').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table9').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table9').deleteRow(0)
+ }
+}
+function insRow10()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table10').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table10').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table10').deleteRow(0)
+ }
+}
+function insRow11()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Literal declarado CONDICIONALMENTE EXEQUIBLE por la Corte Constitucional mediante Sentencia C-1011-08 de 16 de octubre de 2008, Magistrado Ponente Dr. Jaime Córdoba Triviño, 'en el entendido que, ... las entidades públicas del poder ejecutivo, cuando acceden al dato personal, quedan sometidas a los deberes y responsabilidades previstos por la Ley Estatutaria para los usuarios de la información.' 
+ ";
+var z=document.getElementById('Table11').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table11').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table11').deleteRow(0)
+ }
+}
+function insRow12()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo 'en el entendido que respecto a lo previsto en el literal d) de este artículo, las entidades públicas del poder ejecutivo, cuando acceden al dato personal, quedan sometidas a los deberes y responsabilidades previstos por la Ley Estatutaria para los usuarios de la información.' 
+ ";
+var z=document.getElementById('Table12').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table12').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table12').deleteRow(0)
+ }
+}
+function insRow13()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Numeral declarado CONDICIONALMENTE EXEQUIBLE por la Corte Constitucional mediante Sentencia C-1011-08 de 16 de octubre de 2008, Magistrado Ponente Dr. Jaime Córdoba Triviño, 'en el entendido que ..., la fuente tiene la obligación de informar a los titulares los datos que suministra al operador, para los fines previstos en el inciso 2º del artículo 12 de la Ley Estatutaria.' 
+ ";
+var z=document.getElementById('Table13').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table13').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table13').deleteRow(0)
+ }
+}
+function insRow14()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo 'en el entendido que respecto a lo previsto en el numeral 2.1. de este artículo, la fuente tiene la obligación de informar a los titulares los datos que suministra al operador, para los fines previstos en el inciso 2º del artículo 12 de la Ley Estatutaria.' 
+ ";
+var z=document.getElementById('Table14').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table14').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table14').deleteRow(0)
+ }
+}
+function insRow15()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table15').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table15').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table15').deleteRow(0)
+ }
+}
+function insRow16()
+{
+var description = new Array();
+description[0] = " - Numeral adicionado por el artículo 4 de la Ley 2157 de 2021, 'por medio de la cual se modifica y adiciona la Ley Estatutaria 1266 de 2008, y se dictan disposiciones generales del Hábeas Data con relación a la información financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones', publicada en el Diario Oficial No. 51.842 de 29 de octubre de 2021.
+ ";
+var z=document.getElementById('Table16').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table16').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table16').deleteRow(0)
+ }
+}
+function insRow17()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró INCONSTITUCIONAL la expresión “hacerse exigible la obligación” del numeral 11 adicionado por el artículo 4 de la Ley 2157 de 2021.
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table17').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table17').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table17').deleteRow(0)
+ }
+}
+function insRow18()
+{
+var description = new Array();
+description[0] = " Texto original del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, 314 de 2019 – Cámara: 
+ 11. Reportar la información negativa de los titulares, máximo (18) meses después de hacerse exigible la obligación .
+ ";
+var z=document.getElementById('Table18').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table18').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table18').deleteRow(0)
+ }
+}
+function insRow19()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table19').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table19').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table19').deleteRow(0)
+ }
+}
+function insRow20()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table20').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table20').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table20').deleteRow(0)
+ }
+}
+function insRow21()
+{
+var description = new Array();
+description[0] = " - Parágrafo modificado por el artículo 5 de la Ley 2157 de 2021, 'por medio de la cual se modifica y adiciona la Ley Estatutaria 1266 de 2008, y se dictan disposiciones generales del Hábeas Data con relación a la información financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones', publicada en el Diario Oficial No. 51.842 de 29 de octubre de 2021.
+ ";
+var z=document.getElementById('Table21').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table21').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table21').deleteRow(0)
+ }
+}
+function insRow22()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL el parágrafo 1 adicionado por el artículo 5 de la Ley 2157 de 2021..
+ ";
+var z=document.getElementById('Table22').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table22').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table22').deleteRow(0)
+ }
+}
+function insRow23()
+{
+var description = new Array();
+description[0] = " Texto original de la Ley 1266 de 2008: 
+ Parágrafo 1. La administración de información financiera, crediticia, comercial, de servicios y la proveniente de terceros países, por parte de fuentes, usuarios y operadores deberá realizarse de forma que permita favorecer los fines de expansión y democratización del crédito. Los usuarios de este tipo de información deberán valorar este tipo de información en forma concurrente con otros factores o elementos de juicio que técnicamente inciden en el estudio de riesgo y el análisis crediticio, y no podrán basarse exclusivamente en la información relativa al incumplimiento de obligaciones suministrada por los operadores para adoptar decisiones frente a solicitudes de crédito.
+ La Superintendencia Financiera de Colombia podrá imponer las sanciones previstas en la presente ley a los usuarios de la información que nieguen una solicitud de crédito basados exclusivamente en el reporte de información negativa del solicitante.
+ ";
+var z=document.getElementById('Table23').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table23').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table23').deleteRow(0)
+ }
+}
+function insRow24()
+{
+var description = new Array();
+description[0] = " - Parágrafo modificado por el artículo 5 de la Ley 2157 de 2021, 'por medio de la cual se modifica y adiciona la Ley Estatutaria 1266 de 2008, y se dictan disposiciones generales del Hábeas Data con relación a la información financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones', publicada en el Diario Oficial No. 51.842 de 29 de octubre de 2021.
+ ";
+var z=document.getElementById('Table24').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table24').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table24').deleteRow(0)
+ }
+}
+function insRow25()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL el parágrafo 2, salvo la expresión “salvo cuando se trate de contrataciones en el sector financiero”, adicionado por el artículo 5 de la Ley 2157 de 2021.
+ ";
+var z=document.getElementById('Table25').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table25').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table25').deleteRow(0)
+ }
+}
+function insRow26()
+{
+var description = new Array();
+description[0] = " Texto original de la Ley 1266 de 2008: 
+ Parágrafo 2. La consulta de la información financiera, crediticia, comercial, de servicios y la proveniente de terceros países por parte del titular, será gratuita al menos una (1) vez cada mes calendario.
+ ";
+var z=document.getElementById('Table26').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table26').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table26').deleteRow(0)
+ }
+}
+function insRow27()
+{
+var description = new Array();
+description[0] = " Texto original del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, 314 de 2019 – Cámara: 
+ Parágrafo 2o. La consulta de la información financiera, crediticia, comercial, de servicios y la proveniente de terceros países por parte del titular, en toda ocasión y por todos los medios, será gratuita. 
+ La revisión continua de esta información por parte del titular o usuario no podrá ser causal de disminución en la calificación de riesgo, récord (scorings-score), o cualquier tipo de medición, ni podrá alterar en nada los estudios financieros o crediticios. En ningún caso se podrá consultar esta información para fines de toma de decisiones laborales, salvo cuando se trate de contrataciones en el sector financiero y no podrá utilizarse para fines diferentes al análisis o cálculo del riesgo crediticio del titular del dato.
+ qwe
+ ";
+var z=document.getElementById('Table27').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table27').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table27').deleteRow(0)
+ }
+}
+function insRow28()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table28').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table28').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table28').deleteRow(0)
+ }
+}
+function insRow29()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table29').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table29').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table29').deleteRow(0)
+ }
+}
+function insRow30()
+{
+var description = new Array();
+description[0] = " - Parágrafo adicionado por el artículo 6 de la Ley 2157 de 2021, 'por medio de la cual se modifica y adiciona la Ley Estatutaria 1266 de 2008, y se dictan disposiciones generales del Hábeas Data con relación a la información financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones', publicada en el Diario Oficial No. 51.842 de 29 de octubre de 2021.
+ ";
+var z=document.getElementById('Table30').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table30').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table30').deleteRow(0)
+ }
+}
+function insRow31()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL el parágrafo adicionado por el artículo 6 de la Ley 2157 de 2021.
+ ";
+var z=document.getElementById('Table31').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table31').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table31').deleteRow(0)
+ }
+}
+function insRow32()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table32').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table32').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table32').deleteRow(0)
+ }
+}
+function insRow33()
+{
+var description = new Array();
+description[0] = " - Artículo modificado por el artículo 3 de la Ley 2157 de 2021, 'por medio de la cual se modifica y adiciona la Ley Estatutaria 1266 de 2008, y se dictan disposiciones generales del Hábeas Data con relación a la información financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones', publicada en el Diario Oficial No. 51.842 de 29 de octubre de 2021.
+ ";
+var z=document.getElementById('Table33').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table33').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table33').deleteRow(0)
+ }
+}
+function insRow34()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL el artículo 3 de la ley 2157 de 2021.
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró CONDICIONALMENTE EXEQUIBLE este artículo, 'en el entendido que la caducidad del dato financiero en caso de mora inferior a dos años, no podrá exceder el doble de la mora, y que el término de permanencia de cuatro años también se contará a partir del momento en que se extinga la obligación por cualquier modo' .
+ ";
+var z=document.getElementById('Table34').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table34').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table34').deleteRow(0)
+ }
+}
+function insRow35()
+{
+var description = new Array();
+description[0] = " Texto original de la Ley 1266 de 2008: 
+ ARTÍCULO 13. Permanencia de la información. La información de carácter positivo permanecerá de manera indefinida en los bancos de datos de los operadores de información.
+ Los datos cuyo contenido haga referencia al tiempo de mora, tipo de cobro, estado de la cartera, y en general, aquellos datos referentes a una situación de incumplimiento de obligaciones, se regirán por un término máximo de permanencia, vencido el cual deberá ser retirada de los bancos de datos por el operador, de forma que los usuarios no puedan acceder o consultar dicha información. El término de permanencia de esta información será de cuatro (4) años contados a partir de la fecha en que sean pagadas las cuotas vencidas o sea pagada la obligación vencida.
+ ";
+var z=document.getElementById('Table35').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table35').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table35').deleteRow(0)
+ }
+}
+function insRow36()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Literal declarado CONDICIONALMENTE EXEQUIBLE por la Corte Constitucional mediante Sentencia C-1011-08 de 16 de octubre de 2008, Magistrado Ponente Dr. Jaime Córdoba Triviño, 'en el entendido que las expresiones “reporte negativo” y “reporte positivo” de los literales a. y b. hacen referencia exclusivamente al cumplimiento o incumplimiento de la obligación, y que el reporte deberá contener la información histórica, integral, objetiva y veraz del comportamiento crediticio del titular.'
+ ";
+var z=document.getElementById('Table36').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table36').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table36').deleteRow(0)
+ }
+}
+function insRow37()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Literal declarado CONDICIONALMENTE EXEQUIBLE por la Corte Constitucional mediante Sentencia C-1011-08 de 16 de octubre de 2008, Magistrado Ponente Dr. Jaime Córdoba Triviño, 'en el entendido que las expresiones “reporte negativo” y “reporte positivo” de los literales a. y b. hacen referencia exclusivamente al cumplimiento o incumplimiento de la obligación, y que el reporte deberá contener la información histórica, integral, objetiva y veraz del comportamiento crediticio del titular.'
+ ";
+var z=document.getElementById('Table37').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table37').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table37').deleteRow(0)
+ }
+}
+function insRow38()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró CONDICIONALMENTE EXEQUIBLE este artículo, 'en el entendido que las expresiones “reporte negativo” y “reporte positivo” de los literales a. y b. hacen referencia exclusivamente al cumplimiento o incumplimiento de la obligación, y que el reporte deberá contener la información histórica, integral, objetiva y veraz del comportamiento crediticio del titular.'
+ ";
+var z=document.getElementById('Table38').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table38').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table38').deleteRow(0)
+ }
+}
+function insRow39()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table39').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table39').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table39').deleteRow(0)
+ }
+}
+function insRow40()
+{
+var description = new Array();
+description[0] = " - Numeral modificado por el artículo 7 de la Ley 2573 de 19 de mayo de 2026, 'por medio del cual se establecen medidas para proteger a las personas del reporte negativo ante operadores de información y el cobro de obligaciones en casos de suplantación de identidad ante los operadores de telecomunicaciones, las entidades financieras - crediticias y demás establecimientos comerciales con esta competencia, y se dictan otras disposiciones', publicada en el Diario Oficial No. 53.496 de 20 de mayo de 2026. Rige a partir de su publicación en el Diario Oficial.
+ - Numeral adicionado por el artículo 7 de la Ley 2157 de 2021, 'por medio de la cual se modifica y adiciona la Ley Estatutaria 1266 de 2008, y se dictan disposiciones generales del Hábeas Data con relación a la información financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones', publicada en el Diario Oficial No. 51.842 de 29 de octubre de 2021.
+ ";
+var z=document.getElementById('Table40').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table40').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table40').deleteRow(0)
+ }
+}
+function insRow41()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-413-25 de 2 de octubre de 2025, Magistrado Ponente Dr. Juan Carlos Cortés González, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado y declaró CONSTITUCIONAL el numeral 7 modificado por el artículo 7 de la Ley 2573 de 2026 este artículo.
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL el numeral 7 adicionado por el artículo 7 de la Ley 2157 de 2021.
+ ";
+var z=document.getElementById('Table41').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table41').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table41').deleteRow(0)
+ }
+}
+function insRow42()
+{
+var description = new Array();
+description[0] = " Texto adicionado por la Ley 2157 de 2021: 
+ 7. De los casos de suplantación. <Numeral adicionado por el artículo 7 de la Ley 2157 de 2021. El nuevo texto es el siguiente:> En el caso que el titular de la información manifieste ser víctima del delito de falsedad personal contemplado en el Código Penal, y le sea exigido el pago de obligaciones como resultado de la conducta punible de la que es víctima, deberá presentar petición de corrección ante la fuente adjuntando los soportes correspondientes. La fuente una vez reciba la solicitud, deberá dentro de los diez (10) días siguientes cotejar los documentos utilizados para adquirir la obligación que se disputa, con los documentos allegados por el titular en la petición, los cuales se tendrán como prueba sumaria para probar la falsedad, la fuente, si así lo considera, deberá denunciar el delito de estafa del que haya podido ser víctima. 
+ Con la solicitud presentada por el titular, el dato negativo, récord (scoringsscore) y cualquier otro dato que refleje el comportamiento del titular, deberán ser modificados por la fuente reflejando que la víctima de falsedad no es quien adquirió las obligaciones, y se incluirá una leyenda dentro del registro personal que diga –Víctima de Falsedad Personal–. 
+ ";
+var z=document.getElementById('Table42').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table42').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table42').deleteRow(0)
+ }
+}
+function insRow43()
+{
+var description = new Array();
+description[0] = " - Numeral modificado por el artículo 7 de la Ley 2573 de 19 de mayo de 2026, 'por medio del cual se establecen medidas para proteger a las personas del reporte negativo ante operadores de información y el cobro de obligaciones en casos de suplantación de identidad ante los operadores de telecomunicaciones, las entidades financieras - crediticias y demás establecimientos comerciales con esta competencia, y se dictan otras disposiciones', publicada en el Diario Oficial No. 53.496 de 20 de mayo de 2026. Rige a partir de su publicación en el Diario Oficial.
+ - Numeral adicionado por el artículo 7 de la Ley 2157 de 2021, 'por medio de la cual se modifica y adiciona la Ley Estatutaria 1266 de 2008, y se dictan disposiciones generales del Hábeas Data con relación a la información financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones', publicada en el Diario Oficial No. 51.842 de 29 de octubre de 2021.
+ ";
+var z=document.getElementById('Table43').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table43').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table43').deleteRow(0)
+ }
+}
+function insRow44()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-413-25 de 2 de octubre de 2025, Magistrado Ponente Dr. Juan Carlos Cortés González, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado y declaró, sobre el numeral 8 modificado por el artículo 7 de la Ley 2573 de 2026, ESTARSE A LO RESUELTO en la Sentencia C-282 de 2021 y, en consecuencia, declarar su CONSTITUCIONALIDAD.
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL el numeral 8 adicionado por el artículo 1 de la Ley 2157 de 2021, salvo por la expresión “administrativo positivo”.
+ ";
+var z=document.getElementById('Table44').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table44').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table44').deleteRow(0)
+ }
+}
+function insRow45()
+{
+var description = new Array();
+description[0] = " 
+ Texto adicionado por la Ley 2157 de 2021: 
+ 8. Silencio. <Numeral adicionado por el artículo 7 de la Ley 2157 de 2021. El nuevo texto es el siguiente:> Las peticiones o reclamos deberán resolverse dentro de los quince (15) días hábiles siguientes a la fecha de su recibo. Prorrogables por ocho (8) días hábiles más, según lo indicado en el numeral 3, parte II, artículo 16 de la presente ley. Si en ese lapso no se ha dado pronta resolución, se entenderá, para todos los efectos legales, que la respectiva solicitud ha sido aceptada. Si no lo hiciere, el peticionario podrá solicitar a la Superintendencia de Industria Y. Comercio y a la Superintendencia Financiera de Colombia, según el caso, la imposición de las sanciones a que haya lugar conforme a la presente ley, sin perjuicio de que ellas adopten las decisiones que resulten pertinentes para hacer efectivo el derecho al hábeas data de los titulares. 
+ Texto del Proyecto de Ley Anterior
+ Texto original del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, 314 de 2019 – Cámara: 
+ 8. Silencio administrativo positivo . Las peticiones o reclamos deberán resolverse dentro de los quince (15) días hábiles siguientes a la fecha de su recibo. Prorrogables por ocho (8) días hábiles más, según lo indicado en el numeral 3, parte II, artículo 16 de la presente ley. Si en ese lapso no se ha dado pronta resolución, se entenderá, para todos los efectos legales, que la respectiva solicitud ha sido aceptada. Si no lo hiciere, el peticionario podrá solicitar a la Superintendencia de Industria y Comercio y a la Superintendencia Financiera de Colombia, según el caso, la imposición de las sanciones a que haya lugar conforme a la presente ley, sin perjuicio de que ellas adopten las decisiones que resulten pertinentes para hacer efectivo el derecho al habeas data de los titulares. 
+ ";
+var z=document.getElementById('Table45').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table45').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table45').deleteRow(0)
+ }
+}
+function insRow46()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table46').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table46').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table46').deleteRow(0)
+ }
+}
+function insRow47()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo, 'en el entendido que las Superintendencias, en todo caso, deben actuar con independencia y autonomía en su función de vigilancia' .
+ ";
+var z=document.getElementById('Table47').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table47').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table47').deleteRow(0)
+ }
+}
+function insRow48()
+{
+var description = new Array();
+description[0] = " - Inciso modificado por el artículo 14 de la Ley 2157 de 2021, 'por medio de la cual se modifica y adiciona la Ley Estatutaria 1266 de 2008, y se dictan disposiciones generales del Hábeas Data con relación a la información financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones', publicada en el Diario Oficial No. 51.842 de 29 de octubre de 2021.
+ ";
+var z=document.getElementById('Table48').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table48').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table48').deleteRow(0)
+ }
+}
+function insRow49()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL el texto modificado por el artículo 14 de la Ley 2157 de 2021.
+ ";
+var z=document.getElementById('Table49').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table49').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table49').deleteRow(0)
+ }
+}
+function insRow50()
+{
+var description = new Array();
+description[0] = " Texto original de la Ley 1266 de 2008: 
+ <INCISO 2> Multas de carácter personal e institucional hasta por el equivalente a mil quinientos (1.500) salarios mínimos mensuales legales vigentes al momento de la imposición de la sanción, por violación a la presente ley, normas que la reglamenten, así como por la inobservancia de las órdenes e instrucciones impartidas por dicha Superintendencia. Las multas aquí previstas podrán ser sucesivas mientras subsista el incumplimiento que las originó.
+ ";
+var z=document.getElementById('Table50').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table50').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table50').deleteRow(0)
+ }
+}
+function insRow51()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table51').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table51').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table51').deleteRow(0)
+ }
+}
+function insRow52()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table52').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table52').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table52').deleteRow(0)
+ }
+}
+function insRow53()
+{
+var description = new Array();
+description[0] = " - Artículo adicionado por el artículo 12 de la Ley 2157 de 2021, 'por medio de la cual se modifica y adiciona la Ley Estatutaria 1266 de 2008, y se dictan disposiciones generales del Hábeas Data con relación a la información financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones', publicada en el Diario Oficial No. 51.842 de 29 de octubre de 2021.
+ ";
+var z=document.getElementById('Table53').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table53').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table53').deleteRow(0)
+ }
+}
+function insRow54()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL el artículo adicionado por el artículo 12 de la Ley 2157 de 2021.
+ ";
+var z=document.getElementById('Table54').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table54').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table54').deleteRow(0)
+ }
+}
+function insRow55()
+{
+var description = new Array();
+description[0] = " - Artículo adicionado por el artículo 13 de la Ley 2157 de 2021, 'por medio de la cual se modifica y adiciona la Ley Estatutaria 1266 de 2008, y se dictan disposiciones generales del Hábeas Data con relación a la información financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones', publicada en el Diario Oficial No. 51.842 de 29 de octubre de 2021.
+ ";
+var z=document.getElementById('Table55').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table55').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table55').deleteRow(0)
+ }
+}
+function insRow56()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL el artículo adicionado por el artículo 13 de la Ley 2157 de 2021.
+ ";
+var z=document.getElementById('Table56').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table56').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table56').deleteRow(0)
+ }
+}
+function insRow57()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table57').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table57').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table57').deleteRow(0)
+ }
+}
+function insRow58()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table58').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table58').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table58').deleteRow(0)
+ }
+}
+function insRow59()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante la Sentencia C-1011-08 de 16 de octubre de 2008, la Corte Constitucional efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 27/06 Senado – 221/07 Cámara (Acum. 05/06 Senado), Magistrado Ponente Dr. Jaime Córdoba Triviño. Declaró EXEQUIBLE este artículo.
+ ";
+var z=document.getElementById('Table59').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table59').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table59').deleteRow(0)
+ }
+}

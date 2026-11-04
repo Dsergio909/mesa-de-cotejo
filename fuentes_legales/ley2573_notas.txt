@@ -1,0 +1,210 @@
+function insRow1()
+{
+var description = new Array();
+description[0] = " Corte Constitucional - Mediante Sentencia C-413-25 de 2 de octubre de 2025, Magistrado Ponente Dr. Juan Carlos Cortés González, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado y declaró CONSTITUCIONAL el proyecto de ley, por su aspecto formal. ";
+var z=document.getElementById('Table1').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table1').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table1').deleteRow(0)
+ }
+}
+function insRow2()
+{
+var description = new Array();
+description[0] = " Corte Constitucional - Mediante Sentencia C-413-25 de 2 de octubre de 2025, Magistrado Ponente Dr. Juan Carlos Cortés González, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado y declaró CONSTITUCIONAL este artículo. ";
+var z=document.getElementById('Table2').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table2').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table2').deleteRow(0)
+ }
+}
+function insRow3()
+{
+var description = new Array();
+description[0] = " Corte Constitucional - Mediante Sentencia C-413-25 de 2 de octubre de 2025, Magistrado Ponente Dr. Juan Carlos Cortés González, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado y declaró CONSTITUCIONAL este artículo, con excepción de sus literales a) y c), respecto de los cuales se decide ESTARSE A LO RESUELTO en la Sentencia C-748 de 2011 y, en consecuencia, se declara su CONSTITUCIONALIDAD; y de su literal d) que se declara CONSTITUCIONAL 'en el entendido de que: (i) los operadores de telecomunicaciones y las entidades financieras y/o crediticias, al remitir la información y los documentos deberán cumplir con la carga de veracidad respecto de la plena identidad del cliente y en relación con el reporte negativo de la persona víctima de suplantación; (ii) la carga dinámica de la prueba se aplicará en los procesos judiciales, que no sean de naturaleza penal, en los que se discuta sobre la ocurrencia de una suplantacioón personal y (iii) el juez de conocimiento determinará la operancia de la inversión de la carga de la prueba.'. ";
+var z=document.getElementById('Table3').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table3').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table3').deleteRow(0)
+ }
+}
+function insRow4()
+{
+var description = new Array();
+description[0] = " Corte Constitucional - Mediante Sentencia C-413-25 de 2 de octubre de 2025, Magistrado Ponente Dr. Juan Carlos Cortés González, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado y declaró CONSTITUCIONAL este artículo, con excepción de su numeral 5, que se declara CONSTITUCIONAL 'en el entendido de que la suplantación de identidad digital puede ser a través de cualquier tipo de tecnología existente o que exista en el futuro para el manejo de mensajes', y de su numeral 7, respecto del cual se decide ESTARSE A LO RESUELTO en la Sentencia C-1011 de 2008 y, en consecuencia, declarar su CONSTITUCIONALIDAD. ";
+var z=document.getElementById('Table4').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table4').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table4').deleteRow(0)
+ }
+}
+function insRow5()
+{
+var description = new Array();
+description[0] = " Corte Constitucional - Mediante Sentencia C-413-25 de 2 de octubre de 2025, Magistrado Ponente Dr. Juan Carlos Cortés González, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado y declaró CONSTITUCIONAL este artículo. ";
+var z=document.getElementById('Table5').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table5').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table5').deleteRow(0)
+ }
+}
+function insRow6()
+{
+var description = new Array();
+description[0] = " Texto original del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado: 7. <Apartes tachados INCONSTITUCIONALES> A solicitud de la persona presuntamente suplantada, entregar copia de la información y/o documentos aportados para la aprobación del producto y/o servicio que se haya solicitado a su nombre. La persona suplantada deberá acompañar esta solicitud con una copia de la denuncia presentada ante la Fiscalía General de la Nación . Bajo ninguna circunstancia podrá negarse la entrega de esta información a la persona que haya cumplido las condiciones mencionadas anteriormente . ";
+var z=document.getElementById('Table6').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table6').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table6').deleteRow(0)
+ }
+}
+function insRow7()
+{
+var description = new Array();
+description[0] = " Corte Constitucional - Mediante Sentencia C-413-25 de 2 de octubre de 2025, Magistrado Ponente Dr. Juan Carlos Cortés González, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado y declaró CONSTITUCIONAL este artículo, con excepción de las expresiones 'La persona suplantada deberá acompañar esta solicitud con una copia de la denuncia presentada ante la Fiscalía General de la Nación.' y 'que haya cumplido las condiciones mencionadas anteriormente', contenidas en el numeral 7, que se declaran INCONSTITUCIONALES. ";
+var z=document.getElementById('Table7').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table7').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table7').deleteRow(0)
+ }
+}
+function insRow8()
+{
+var description = new Array();
+description[0] = " Corte Constitucional - Mediante Sentencia C-413-25 de 2 de octubre de 2025, Magistrado Ponente Dr. Juan Carlos Cortés González, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado y declaró CONSTITUCIONAL este artículo. ";
+var z=document.getElementById('Table8').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table8').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table8').deleteRow(0)
+ }
+}
+function insRow9()
+{
+var description = new Array();
+description[0] = " Corte Constitucional - Mediante Sentencia C-413-25 de 2 de octubre de 2025, Magistrado Ponente Dr. Juan Carlos Cortés González, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado y declaró CONSTITUCIONAL este artículo, con excepción del numeral 8, respecto del cual se decide ESTARSE A LO RESUELTO en la Sentencia C-282 de 2021 y, en consecuencia, declarar su CONSTITUCIONALIDAD. ";
+var z=document.getElementById('Table9').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table9').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table9').deleteRow(0)
+ }
+}
+function insRow10()
+{
+var description = new Array();
+description[0] = " Corte Constitucional - Mediante Sentencia C-413-25 de 2 de octubre de 2025, Magistrado Ponente Dr. Juan Carlos Cortés González, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado y declaró CONSTITUCIONAL este artículo, con excepción de su inciso tercero que se declara CONSTITUCIONAL 'en el entendido que, en el mismo término, el operador de telecomunicaciones o entidad financiera y/o crediticia y demás establecimientos comerciales con esta competencia deberán formular la denuncia penal que corresponda'. ";
+var z=document.getElementById('Table10').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table10').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table10').deleteRow(0)
+ }
+}
+function insRow11()
+{
+var description = new Array();
+description[0] = " Corte Constitucional - Mediante Sentencia C-413-25 de 2 de octubre de 2025, Magistrado Ponente Dr. Juan Carlos Cortés González, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado y declaró CONSTITUCIONAL este artículo, con excepción de su INCISO PRIMERO que se declara CONSTITUCIONAL 'en el entendido que la suspensión del cobro de las obligaciones se mantendrá hasta tanto exista pronunciamiento judicial, incluido el archivo de la indagación o, en su defecto, hasta que medie decisión judicial en sede civil que defina la existencia de la obligación'; y de su PARÁGRAFO que se declara CONSTITUCIONAL 'en el entendido que la decisión de archivo se refiere a la culminación formal de la indagación preliminar, sin que implique cosa juzgada ni extinción de la acción penal, y que esa decisión solo podrá establecer si la persona afectada participó o no en la transacción discutida judicialmente'. ";
+var z=document.getElementById('Table11').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table11').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table11').deleteRow(0)
+ }
+}
+function insRow12()
+{
+var description = new Array();
+description[0] = " Corte Constitucional - Mediante Sentencia C-413-25 de 2 de octubre de 2025, Magistrado Ponente Dr. Juan Carlos Cortés González, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado y declaró CONSTITUCIONAL este artículo. ";
+var z=document.getElementById('Table12').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table12').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table12').deleteRow(0)
+ }
+}
+function insRow13()
+{
+var description = new Array();
+description[0] = " Corte Constitucional - Mediante Sentencia C-413-25 de 2 de octubre de 2025, Magistrado Ponente Dr. Juan Carlos Cortés González, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado y declaró CONSTITUCIONAL este artículo. ";
+var z=document.getElementById('Table13').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table13').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table13').deleteRow(0)
+ }
+}
+function insRow14()
+{
+var description = new Array();
+description[0] = " Corte Constitucional - Mediante Sentencia C-413-25 de 2 de octubre de 2025, Magistrado Ponente Dr. Juan Carlos Cortés González, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado y declaró CONSTITUCIONAL este artículo, con excepción de la expresión 'al correcto uso de las redes sociales' del inciso primero que se declara CONSTITUCIONAL 'en el entendido de que los productos audiovisuales desarrollados deben referirse únicamente a la materia regulada en esta ley'. ";
+var z=document.getElementById('Table14').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table14').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table14').deleteRow(0)
+ }
+}
+function insRow15()
+{
+var description = new Array();
+description[0] = " Corte Constitucional - Mediante Sentencia C-413-25 de 2 de octubre de 2025, Magistrado Ponente Dr. Juan Carlos Cortés González, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 190/2022 Cámara, 303/2023 Senado y declaró CONSTITUCIONAL este artículo. ";
+var z=document.getElementById('Table15').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table15').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table15').deleteRow(0)
+ }
+}

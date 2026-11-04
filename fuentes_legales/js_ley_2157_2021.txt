@@ -1,0 +1,305 @@
+function insRow1()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL el proyecto de ley, en cuanto al procedimiento de formación y trámite legislativo.
+ ";
+var z=document.getElementById('Table1').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table1').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table1').deleteRow(0)
+ }
+}
+function insRow2()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL este artículo.
+ ";
+var z=document.getElementById('Table2').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table2').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table2').deleteRow(0)
+ }
+}
+function insRow3()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL este artículo.
+ ";
+var z=document.getElementById('Table3').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table3').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table3').deleteRow(0)
+ }
+}
+function insRow4()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL este artículo.
+ ";
+var z=document.getElementById('Table4').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table4').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table4').deleteRow(0)
+ }
+}
+function insRow5()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró INCONSTITUCIONAL la expresión “hacerse exigible la obligación”.
+ ";
+var z=document.getElementById('Table5').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table5').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table5').deleteRow(0)
+ }
+}
+function insRow6()
+{
+var description = new Array();
+description[0] = " Texto original del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, 314 de 2019 – Cámara: 
+ 11. Reportar la información negativa de los titulares, máximo (18) meses después de hacerse exigible la obligación .
+ ";
+var z=document.getElementById('Table6').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table6').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table6').deleteRow(0)
+ }
+}
+function insRow7()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL este artículo, salvo la expresión “salvo cuando se trate de contrataciones en el sector financiero” contenida en la inciso 2° del parágrafo 2°.
+ ";
+var z=document.getElementById('Table7').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table7').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table7').deleteRow(0)
+ }
+}
+function insRow8()
+{
+var description = new Array();
+description[0] = " Texto original del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, 314 de 2019 – Cámara: 
+ Parágrafo 2o. La consulta de la información financiera, crediticia, comercial, de servicios y la proveniente de terceros países por parte del titular, en toda ocasión y por todos los medios, será gratuita. 
+ La revisión continua de esta información por parte del titular o usuario no podrá ser causal de disminución en la calificación de riesgo, récord (scorings-score), o cualquier tipo de medición, ni podrá alterar en nada los estudios financieros o crediticios. En ningún caso se podrá consultar esta información para fines de toma de decisiones laborales, salvo cuando se trate de contrataciones en el sector financiero y no podrá utilizarse para fines diferentes al análisis o cálculo del riesgo crediticio del titular del dato.
+ ";
+var z=document.getElementById('Table8').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table8').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table8').deleteRow(0)
+ }
+}
+function insRow9()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL este artículo.
+ ";
+var z=document.getElementById('Table9').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table9').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table9').deleteRow(0)
+ }
+}
+function insRow10()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL este artículo, salvo por la expresión “administrativo positivo” contenida en el numeral 8.
+ ";
+var z=document.getElementById('Table10').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table10').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table10').deleteRow(0)
+ }
+}
+function insRow11()
+{
+var description = new Array();
+description[0] = " Texto original del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, 314 de 2019 – Cámara: 
+ 8. Silencio administrativo positivo . Las peticiones o reclamos deberán resolverse dentro de los quince (15) días hábiles siguientes a la fecha de su recibo. Prorrogables por ocho (8) días hábiles más, según lo indicado en el numeral 3, parte II, artículo 16 de la presente ley. Si en ese lapso no se ha dado pronta resolución, se entenderá, para todos los efectos legales, que la respectiva solicitud ha sido aceptada. Si no lo hiciere, el peticionario podrá solicitar a la Superintendencia de Industria y Comercio y a la Superintendencia Financiera de Colombia, según el caso, la imposición de las sanciones a que haya lugar conforme a la presente ley, sin perjuicio de que ellas adopten las decisiones que resulten pertinentes para hacer efectivo el derecho al habeas data de los titulares. 
+ ";
+var z=document.getElementById('Table11').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table11').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table11').deleteRow(0)
+ }
+}
+function insRow12()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL este artículo.
+ ";
+var z=document.getElementById('Table12').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table12').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table12').deleteRow(0)
+ }
+}
+function insRow13()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL este artículo.
+ ";
+var z=document.getElementById('Table13').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table13').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table13').deleteRow(0)
+ }
+}
+function insRow14()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL este artículo.
+ ";
+var z=document.getElementById('Table14').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table14').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table14').deleteRow(0)
+ }
+}
+function insRow15()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL este artículo.
+ ";
+var z=document.getElementById('Table15').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table15').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table15').deleteRow(0)
+ }
+}
+function insRow16()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL este artículo.
+ ";
+var z=document.getElementById('Table16').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table16').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table16').deleteRow(0)
+ }
+}
+function insRow17()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL este artículo.
+ ";
+var z=document.getElementById('Table17').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table17').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table17').deleteRow(0)
+ }
+}
+function insRow18()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL este artículo.
+ ";
+var z=document.getElementById('Table18').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table18').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table18').deleteRow(0)
+ }
+}
+function insRow19()
+{
+var description = new Array();
+description[0] = " Corte Constitucional 
+ - Mediante Sentencia C-282-21 de 25 de agosto de 2021, Magistrado Ponente Dr. Alejandro Linares Cantillo, la Corte Constitucional, de conformidad con lo previsto en el artículo 241 , numeral 8 de la Constitución, efectuó la revisión de constitucionalidad del Proyecto de Ley Estatutaria No. 062 de 2019 – Senado, y 314 de 2019 – Cámara y declaró CONSTITUCIONAL este artículo.
+ ";
+var z=document.getElementById('Table19').rows[0];
+if (z==null) {
+ var x=document.getElementById('Table19').insertRow(0)
+ var y=x.insertCell(0)
+ y.innerHTML=description
+ }
+else {
+ document.getElementById('Table19').deleteRow(0)
+ }
+}
