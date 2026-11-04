@@ -408,7 +408,7 @@ prueba('C27-C31 redes: 2 casos no forman red; un caso puente une dos grupos; ase
     const puente = construirRedes([caso(1, { telAprob: 'T1' }), caso(2, { telAprob: 'T1' }), caso(3, { telAprob: 'T1', dirAprob: 'Z' }), caso(4, { dirAprob: 'Z' }), caso(5, { dirAprob: 'Z' })]).map(x => x.casos.length);
     const cuatro = construirRedes([1, 2, 3, 4].map(i => caso(i, { asesor: 'A-0999' }))).length;
     const cinco = construirRedes([1, 2, 3, 4, 5].map(i => caso(i, { asesor: 'A-0999' }))).length;
-    const propio = construirRedes([1, 2, 3].map(i => caso(i, { telAprob: '3155555555', telTitular: '3155555555' }))).length;
+    const propio = construirRedes([1, 2, 3].map(i => caso(i, { telAprob: '315•••5555', telTitular: '315•••5555' }))).length;
     const titulo = construirRedes([1, 2, 3, 4].map(i => caso(i, { asesor: 'A-0999', ipCiudad: i < 4 ? 'Medellín' : 'Bucaramanga' })).concat([caso(5, { asesor: 'A-0999', ipCiudad: 'Medellín' })]))[0].titulo;
     return [dos, puente, cuatro, cinco, propio, titulo]; })()`);
   igual(r, [0, [5], 0, 1, 0, 'Red 1 · Medellín']);

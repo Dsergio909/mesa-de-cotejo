@@ -39,7 +39,8 @@ const NOMBRES = [
 ];
 const ANALISTAS = ['Tú', 'Laura Méndez', 'Andrés Peña', 'Camila Rojas'];
 const DIRECCIONES_RED =['Cra 7 # ••-45, Soacha', 'Cl 15 # ••-80, Soacha', 'Tv 9 # ••-22, Soacha'];
-const TELEFONO_COMPARTIDO = '3157894512';
+// Teléfonos ficticios ya enmascarados: el código público no guarda ningún número que pueda ser de alguien.
+const TELEFONO_COMPARTIDO = '315•••4512';
 
 // Enmascarado de datos personales: la mesa solo muestra lo necesario para cotejar
 const telMask = t => `${t.slice(0, 3)} ••• ${t.slice(-4)}`;
@@ -57,7 +58,7 @@ function generarCasosBase() {
     const ciudad = elegir(CIUDADES);
     const monto = r(18, 340) * 10000;
     const exp = fechaTexto();
-    const telTitular = `3${r(0, 2)}${r(0, 9)}${r(1000000, 9999999)}`;
+    const telTitular = `3${r(0, 2)}${r(0, 9)}•••${String(r(1000000, 9999999)).slice(-4)}`;
     const usuario = NOMBRES[i].toLowerCase().split(' ')[0];
     const c = {
       id: i + 1,
@@ -99,7 +100,7 @@ function generarCasosBase() {
   const fraudeFuerte = (c, overrides) => {
     c.expAprob = fechaTexto(); c.docAprob = huella();
     c.biometria = +(0.38 + rng() * 0.24).toFixed(2);
-    c.telAprob = `3${r(0, 2)}${r(0, 9)}${r(1000000, 9999999)}`; c.lineaDias = r(3, 20);
+    c.telAprob = `3${r(0, 2)}${r(0, 9)}•••${String(r(1000000, 9999999)).slice(-4)}`; c.lineaDias = r(3, 20);
     c.correoAprob = mailMask('z' + huella(), 'mailbox.co'); c.correoDias = r(1, 5);
     c.categoria = 'celulares'; c.cupo = c.monto; c.comprasPrevias = false;
     Object.assign(c, overrides);
@@ -177,7 +178,7 @@ function crearCasoManual(d, id, fecha) {
     cupo: d.reventa ? d.monto : Math.round(d.monto * 2 / 10000) * 10000, diasDesdeCompra: d.diasDesdeCompra, edad: 0,
     expAprob: d.expedicion ? '2 jun 2021' : exp, expTitular: exp, docAprob: doc, docTitular: doc,
     biometria: d.biometria ? 0.52 : 0.91,
-    telAprob: d.linea ? `320${String(9000000 + id).slice(-7)}` : '3104417720', telTitular: '3104417720', lineaDias: d.linea ? 9 : 640,
+    telAprob: d.linea ? `320•••${String(9000 + id).slice(-4)}` : '310•••7720', telTitular: '310•••7720', lineaDias: d.linea ? 9 : 640,
     correoAprob: d.correo ? 'qx•••@mailbox.co' : 'ti•••@correo.co', correoTitular: 'ti•••@correo.co', correoDias: d.correo ? 2 : 900,
     dirAprob: d.ubicacion ? 'Cl 40 # ••-12, Soacha' : `Cl 72 # ••-18, ${ciudad}`, dirTitular: `Cl 72 # ••-18, ${ciudad}`,
     ipCiudad: d.ubicacion ? 'Soacha' : ciudad,
