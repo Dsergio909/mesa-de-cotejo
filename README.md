@@ -7,7 +7,7 @@ Prototipo de portafolio (datos ficticios). Una mesa de operación para que una e
 ## El problema
 - La ley entra en vigencia el **19-nov-2026** (art. 13). Obliga a quien da crédito a suspender el cobro de inmediato (art. 8), cotejar documentos y corregir las centrales de riesgo en 10 días hábiles (art. 7), y responder en 15 días hábiles. Si no responde a tiempo, **el reclamo se entiende resuelto a favor del cliente** (silencio positivo) y puede haber sanción.
 - La entidad **no puede** declarar que no hubo suplantación: eso lo deciden los jueces (art. 10). Solo puede exonerar, esperar la denuncia o, si pasaron 20 días hábiles sin denuncia, reanudar el cobro (art. 8).
-- El fraude es real y crece. Asobancaria reportó más de 765.000 reclamaciones por fraude en 2025, por más de $967.000 millones (citado en prensa). Según TransUnion, en 2025 la tasa más alta de presunto fraude digital estuvo en la creación de cuentas (7,2 %). La SIC reportó un aumento de 122 % en suplantación en establecimientos comerciales en un año.
+- El fraude es real y crece. Asobancaria reportó más de 765.000 reclamaciones por fraude en 2025, por más de $967.000 millones. Según TransUnion, en 2025 la tasa más alta de presunto fraude digital en Colombia estuvo en la creación de cuentas (7,2 %). Y la SIC lleva 40.316 denuncias por suplantación de identidad desde 2020.
 - Un prestamista que aprueba en minutos, y sobre todo a personas sin historial crediticio, es justo donde verificar la identidad es más difícil.
 
 ## Qué hace
@@ -42,9 +42,9 @@ Si hay poco tiempo: botón **Recorrido guiado** (8 pasos, menos de 2 minutos).
 ## Fuentes
 - Ley Estatutaria 2573 de 2026, Diario Oficial No. 53.496 del 20-may-2026.
 - Superintendencia Financiera, Boletín Jurídico No. 123: https://www.superfinanciera.gov.co/publicaciones/10116246/boletin-juridico-no-123/
-- Asobancaria, citado por Las2orillas: https://www.las2orillas.co/?p=1019321
-- TransUnion, citado por Portafolio: https://www.portafolio.co/economia/finanzas/alerta-por-fraude-en-colombia-cuatro-de-cada-diez-ciudadanos-reportaron-haber-sido-victimas-498893
-- SIC, citado por La FM: https://www.lafm.com.co/economia/lo-suplantaron-y-ahora-esta-reportado-datacredito-esto-es-lo-que-debe-hacer
+- Asobancaria, Banca & Economía n.º 1536 (7 de septiembre de 2026): https://www.asobancaria.com/wp-content/uploads/2026/09/Banca-1536.pdf
+- TransUnion, comunicado del 28 de mayo de 2026: https://noticias.transunion.co/los-casos-sospechosos-de-fraude-digital-en-colombia-se-situan-por-debajo-de-la-tasa-mundial-en-2025-mientras-que-estafas-como-el-vishing-provocan-perdidas-a-los-consumidores/
+- SIC, comunicado del 23 de junio de 2026: https://sedeelectronica.sic.gov.co/noticias/la-sic-alerta-por-aumento-de-suplantacion-de-identidad-en-el-pais-y-lanza-campana-para-prevenir-fraudes-digitales
 
 Prototipo con datos ficticios. No es asesoría jurídica.
 
