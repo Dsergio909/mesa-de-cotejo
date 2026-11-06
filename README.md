@@ -49,7 +49,7 @@ Si hay poco tiempo: botón **Recorrido guiado** (8 pasos, menos de 2 minutos).
 Prototipo con datos ficticios. No es asesoría jurídica.
 
 ## In English (for international reviewers)
-**Cotejo Desk** is a fictitious operations desk for a consumer lender handling identity-theft claims under Colombia's Statutory Law 2573 of 2026 (in force since Nov 19, 2026). The law gives lenders hard deadlines in business days: suspend collections immediately, cross-check documents and correct credit bureaus within 10, and issue a formal response within 15, or the claim is deemed resolved in the consumer's favor (deemed granted by silence).
+**Cotejo Desk** is a fictitious operations desk for a consumer lender handling identity-theft claims under Colombia's Statutory Law 2573 of 2026 (in force from Nov 19, 2026). The law gives lenders hard deadlines in business days: suspend collections immediately, cross-check documents and correct credit bureaus within 10, and issue a formal response within 15, or the claim is deemed resolved in the consumer's favor (deemed granted by silence).
 
 What it shows: a legal clock per case (Colombian holidays computed from Easter and the Emiliani law), an explainable evidence score, fraud networks found by union-find over shared devices, phones, addresses and sales advisors, a tamper-evident audit trail (SHA-256 hash chain), an "if no one acts" forecast, and an AI assistant that never computes legal dates itself: it calls the deterministic calendar as a tool, and every call is visible. There is no "reject" button, because only a judge can rule that no identity theft occurred (Art. 10). Available in Spanish, English and Portuguese: add `#en` or `#pt` to the link.
 
